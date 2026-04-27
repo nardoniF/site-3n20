@@ -1,76 +1,44 @@
-/* Reset básico */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: #1a1a1a; overflow-x: hidden; }
+.container { max-width: 1200px; margin: auto; padding: 0 20px; }
 
-/* Navegação */
-header { background: #222; color: white; padding: 1rem 5%; position: sticky; top: 0; z-index: 1000; }
-nav { display: flex; justify-content: space-between; align-items: center; }
-.logo { font-size: 1.8rem; font-weight: bold; color: #ffc107; }
-nav ul { display: flex; list-style: none; }
-nav ul li { margin-left: 20px; }
-nav ul li a { color: white; text-decoration: none; font-weight: 500; }
+header { background: #000; color: #fff; padding: 15px 0; position: sticky; top: 0; z-index: 1000; }
+nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; padding: 0 20px; }
+.logo { font-size: 2rem; font-weight: 900; color: #ffc107; }
+nav ul { display: flex; list-style: none; gap: 25px; align-items: center; }
+nav ul li a { color: #fff; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+.nav-cta { background: #ffc107; color: #000 !important; padding: 8px 15px; border-radius: 5px; }
 
-/* Hero */
-.hero { height: 60vh; background: #1a1a1a; color: white; display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 20px; }
-.hero h1 { font-size: 3rem; margin: 10px 0; }
-.hero p { font-size: 1.2rem; color: #ccc; }
-.btn-main { background: #ffc107; color: #222; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px; display: inline-block; }
+.hero { height: 70vh; background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2000'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; color: #fff; }
+.hero-overlay { position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.8); }
+.hero-content { position: relative; z-index: 2; }
+.since-tag { background: rgba(255,193,7,0.2); color: #ffc107; padding: 5px 15px; border-radius: 50px; font-weight: 800; font-size: 0.8rem; }
+.hero h1 { font-size: 3.5rem; font-weight: 900; margin: 20px 0; }
+.btn-main { background: #ffc107; color: #000; padding: 15px 40px; border-radius: 10px; text-decoration: none; font-weight: 800; display: inline-block; }
 
-/* Seção de Templates */
-.templates-section { padding: 60px 5%; text-align: center; }
-.badge-sla { display: inline-block; background: #28a745; color: white; padding: 8px 20px; border-radius: 50px; margin-bottom: 20px; font-weight: bold; }
+.about-home { padding: 100px 0; background: #fff; }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.about-img { background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000'); background-size: cover; height: 450px; border-radius: 20px; }
+.badge { color: #ffc107; font-weight: 800; text-transform: uppercase; font-size: 0.9rem; }
+.about-text h2 { font-size: 2.8rem; font-weight: 800; margin: 15px 0; }
 
-/* Grid de 4 Colunas */
-.templates-grid { 
-    display: grid; 
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 20px; 
-    margin-top: 40px; 
-}
+.templates-section { padding: 80px 0; background: #f9f9f9; text-align: center; }
+.templates-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 50px; }
+.template-card { background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eee; text-align: left; }
+.template-img { width: 100%; height: 200px; object-fit: cover; }
+.template-info { padding: 20px; }
+.btn-demo { background: #f0f0f0; width: 100%; padding: 12px; border-radius: 8px; border: none; font-weight: 700; cursor: pointer; margin-top: 15px; }
 
-/* Responsividade do Grid */
-@media (max-width: 1100px) { .templates-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 800px) { .templates-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 500px) { .templates-grid { grid-template-columns: 1fr; } }
+.main-footer { background: #000; color: #fff; padding: 60px 0 30px; text-align: center; }
+.footer-logo { font-size: 1.8rem; font-weight: 900; color: #ffc107; margin-bottom: 10px; }
 
-/* Cards */
-.template-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s; display: flex; flex-direction: column; }
-.template-card:hover { transform: translateY(-5px); }
-.template-img { width: 100%; height: 160px; background: #ddd; object-fit: cover; }
-.template-info { padding: 20px; text-align: left; flex-grow: 1; }
-.tag { font-size: 0.7rem; font-weight: bold; color: #007bff; text-transform: uppercase; }
-.template-info h3 { margin: 5px 0 15px; font-size: 1.1rem; }
+.contact-section { background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2000'); background-size: cover; padding: 100px 0; text-align: center; position: relative; color: #fff; }
+.contact-overlay { position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.85); }
+.contact-content { position: relative; z-index: 2; }
+.btn-whatsapp { background: #25d366; color: #fff; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 800; display: inline-block; }
 
-.template-btns { display: flex; gap: 8px; }
-.btn-demo, .btn-buy { flex: 1; text-align: center; padding: 8px; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 0.8rem; }
-.btn-demo { border: 1px solid #007bff; color: #007bff; }
-.btn-buy { background: #28a745; color: white; }
+#demo-header-bar { background: #111; color: #fff; padding: 12px 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 9999; }
+.btn-back { background: #ff4757; color: #fff; border: none; width: 35px; height: 35px; border-radius: 50%; cursor: pointer; }
+.btn-demo-buy { background: #28a745; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: bold; }
 
-/* Contato */
-.contact-section { background: #222; color: white; padding: 60px 5%; text-align: center; }
-.btn-whatsapp { background: #25d366; color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 20px; }
-
-/* Botão WhatsApp Flutuante */
-.whatsapp-float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 30px;
-    right: 30px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 5px 15px rgba(0,0,0,0.3);
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: 0.3s;
-}
-.whatsapp-float:hover { transform: scale(1.1); background-color: #128c7e; }
-
-/* Footer */
-footer { text-align: center; padding: 20px; background: #111; color: #777; font-size: 0.8rem; }
+.whatsapp-float { position: fixed; width: 60px; height: 60px; bottom: 30px; right: 30px; background: #25d366; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; z-index: 1000; text-decoration: none; }

@@ -3,58 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3N20 - Desenvolvimento de Sites em 24h</title>
+    <title>3N20 - Soluções Tecnológicas desde 1996</title>
     <link rel="stylesheet" href="style.css">
-    <!-- FontAwesome para os ícones do WhatsApp -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/dist/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">3N20</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#templates">Templates</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="main-site">
+        <header>
+            <nav>
+                <div class="logo">3N20</div>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Quem Somos</a></li>
+                    <li><a href="#templates">Catálogo</a></li>
+                    <li><a href="#contato" class="nav-cta">Orçamento</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Seu site profissional pronto em 24 horas.</h1>
-            <p>SLA garantido: Sites modernos e responsivos por R$ 1.000. Sem enrolação.</p>
-            <a href="#templates" class="btn-main">Ver Catálogo de Templates</a>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="since-tag">Desde 1996 • <span id="years-count"></span> Anos de Inovação</span>
+                <h1>Sua presença digital em 24 horas.</h1>
+                <p>Sites profissionais de alta performance por apenas <strong>R$ 999,90</strong>.</p>
+                <br>
+                <a href="#templates" class="btn-main">Explorar Catálogo</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-home">
+            <div class="container about-grid">
+                <div class="about-img"></div>
+                <div class="about-text">
+                    <span class="badge">Nossa Jornada</span>
+                    <h2>30 Anos de Tradição e Tecnologia</h2>
+                    <p>Nascemos em 1996. A 3N20 não é apenas uma agência de sites; somos uma empresa de tecnologia com três décadas de estrada.</p>
+                    <p>Entregamos sites otimizados que carregam instantaneamente e convertem visitantes em clientes reais, unindo a robustez do código à agilidade do mercado atual.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="templates" class="templates-section">
+            <div class="container">
+                <div class="badge-sla">⚡ SLA de Entrega: 24 Horas</div>
+                <h2>Modelos Profissionais</h2>
+                <div class="templates-grid" id="templates-container"></div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="contact-overlay"></div>
+            <div class="container contact-content">
+                <h2>Pronto para começar?</h2>
+                <p>Fale diretamente com quem entende de tecnologia e impulsione seu negócio.</p>
+                <br>
+                <a href="https://wa.me/5511984215176" class="btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer-logo">3N20</div>
+                <p>&copy; 2026 3N20 - Fabio Nardoni. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <div id="demo-viewer" style="display: none;">
+        <div id="demo-header-bar">
+            <span>Visualizando: <strong id="current-demo-name"></strong></span>
+            <div class="demo-actions">
+                <a id="demo-cta-btn" href="#" class="btn-demo-buy" target="_blank">Contratar</a>
+                <button onclick="closeDemo()" class="btn-back"><i class="fas fa-times"></i></button>
+            </div>
         </div>
-    </section>
+        <div id="demo-content"></div>
+    </div>
 
-    <section id="templates" class="templates-section">
-        <div class="badge-sla">⚡ Escolha seu estilo e comece agora</div>
-        <h2>Catálogo de Templates</h2>
-        <p class="subtitle">Sites otimizados com até 5 seções (Home, Sobre, Produtos/Serviços, Contato e Sucesso).</p>
-
-        <div class="templates-grid" id="templates-container">
-            <!-- Os 12 cards serão inseridos aqui pelo JavaScript -->
-        </div>
-    </section>
-
-    <section id="contato" class="contact-section">
-        <h2>Vamos tirar seu projeto do papel?</h2>
-        <p>Escolha um template acima ou mande uma mensagem direta.</p>
-        <a href="https://wa.me/5511984215176" class="btn-whatsapp">
-            <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
-        </a>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 3N20 - Fabio Nardoni. Todos os direitos reservados.</p>
-    </footer>
-
-    <!-- Botão WhatsApp Flutuante -->
-    <a href="https://wa.me/5511984215176" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <a href="https://wa.me/5511984215176" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
 
     <script src="script.js"></script>
 </body>
