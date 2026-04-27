@@ -3,70 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3N20 - Seu Site Profissional em 24h</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
-    </style>
+    <title>3N20 - Desenvolvimento de Sites em 24h</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-[#0f172a] text-white overflow-x-hidden">
+<body>
 
-    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto">
-        <div class="text-3xl font-black tracking-tighter">3N20<span class="text-blue-500">.</span></div>
-        <a href="https://wa.me/5511999999999" class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-bold transition">WhatsApp</a>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">3N20</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#servicos">Como Funciona</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="max-w-7xl mx-auto px-6 py-20 text-center md:text-left md:flex items-center">
-        <div class="md:w-3/5">
-            <span class="text-blue-500 font-bold tracking-widest uppercase text-sm">A Revolução Digital</span>
-            <h1 class="text-5xl md:text-8xl font-extrabold leading-none mt-4">Site Profissional por <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">R$ 1.000,00</span></h1>
-            <p class="text-gray-400 text-xl mt-8 max-w-xl leading-relaxed">Entregamos sua presença online em até 24 horas. Código limpo, alta performance e focado em vendas.</p>
-            
-            <div class="mt-12 flex flex-col md:flex-row gap-4">
-                <a href="#contato" class="bg-white text-black px-10 py-5 rounded-2xl font-black text-xl hover:bg-blue-500 hover:text-white transition-all text-center">QUERO MEU SITE</a>
-                <div class="flex items-center gap-4 px-6 py-4 glass rounded-2xl">
-                    <span class="text-emerald-400 text-2xl">●</span>
-                    <span class="text-sm font-medium">Disponibilidade imediata para novos projetos</span>
-                </div>
-            </div>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Estratégia de Coordenador de Squad</span>
+            <h1>Seu site profissional pronto em 24 horas.</h1>
+            <p>SLA garantido: 5 seções essenciais por R$ 1.000. Sem enrolação.</p>
+            <a href="#templates" class="btn-main">Ver Catálogo de Templates</a>
         </div>
     </section>
 
-    <section class="max-w-7xl mx-auto px-6 py-20">
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="glass p-10 rounded-[2rem]">
-                <div class="text-4xl mb-6">⚡</div>
-                <h3 class="text-2xl font-bold">Velocidade</h3>
-                <p class="text-gray-400 mt-4 leading-relaxed">Nada de WordPress pesado. Sites leves que carregam instantaneamente no celular.</p>
-            </div>
-            <div class="glass p-10 rounded-[2rem]">
-                <div class="text-4xl mb-6">🎨</div>
-                <h3 class="text-2xl font-bold">Design Premium</h3>
-                <p class="text-gray-400 mt-4 leading-relaxed">Layouts modernos que transmitem autoridade e confiança para o seu cliente.</p>
-            </div>
-            <div class="glass p-10 rounded-[2rem]">
-                <div class="text-4xl mb-6">🎯</div>
-                <h3 class="text-2xl font-bold">SEO Integrado</h3>
-                <p class="text-gray-400 mt-4 leading-relaxed">Seu site já nasce otimizado para o Google encontrar o seu negócio.</p>
-            </div>
+    <section id="templates" class="templates-section">
+        <div class="badge-sla">⚡ Escolha seu estilo e comece agora</div>
+        <h2>Catálogo de Templates</h2>
+        <p class="subtitle">Sites otimizados com até 5 seções (Home, Sobre, Produtos/Serviços, Contato e Sucesso).</p>
+
+        <div class="templates-grid" id="templates-container">
+            <!-- Os cards serão inseridos aqui pelo JavaScript -->
         </div>
     </section>
 
-    <section id="contato" class="max-w-4xl mx-auto px-6 py-32 text-center">
-        <h2 class="text-4xl md:text-6xl font-bold">Pare de perder clientes para a concorrência.</h2>
-        <p class="text-gray-500 mt-6 text-xl">O mercado não espera. Tenha sua vitrine profissional hoje mesmo.</p>
-        <div class="mt-12">
-            <a href="https://wa.me/5511999999999" class="bg-blue-600 px-12 py-6 rounded-full font-black text-2xl hover:scale-105 transition-transform inline-block">
-                INICIAR PROJETO AGORA
-            </a>
-        </div>
+    <section id="contato" class="contact-section">
+        <h2>Vamos tirar seu projeto do papel?</h2>
+        <p>Escolha um template acima ou mande uma mensagem direta.</p>
+        <a href="https://wa.me/5511999999999" class="btn-whatsapp">Falar com Fabio no WhatsApp</a>
     </section>
 
-    <footer class="py-10 text-center text-gray-600 text-sm border-t border-white/5">
-        &copy; 2026 3N20 - Soluções Tecnológicas.
+    <footer>
+        <p>&copy; 2026 3N20 - Fabio Nardoni. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
