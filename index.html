@@ -1,91 +1,496 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3N20 - Soluções Tecnológicas desde 1996</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sensor Tattoo Fix — Smartwatch na Tatuagem | Tecnologia 3N20</title>
+    <meta name="description" content="Relógio não reconhece pulso na tatuagem? Lente ótica Sensor Tattoo Fix restaura batimentos, treinos e pagamento por aproximação. Apple Watch, Samsung, Garmin e mais.">
+    <link rel="canonical" href="https://3n20.com.br/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://3n20.com.br/">
+    <meta property="og:title" content="Sensor Tattoo Fix — A paz entre a tinta e o silício">
+    <meta property="og:description" content="Solução de engenharia ótica para smartwatches em pele tatuada. Patente requerida. Compre na loja oficial.">
+    <meta property="og:image" content="https://3n20.com.br/assets/relogio_home.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#050505">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/landing.css?v=1">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFLZHJG9RN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TFLZHJG9RN');
+    </script>
 </head>
 <body>
 
-    <div id="main-site">
-        <header>
-            <nav>
-                <div class="logo">3N20</div>
-                <ul>
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#sobre">Quem Somos</a></li>
-                    <li><a href="#templates">Catálogo</a></li>
-                    <li><a href="#contato" class="nav-cta">Orçamento</a></li>
-                </ul>
-            </nav>
-        </header>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
 
-        <section id="home" class="hero">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <span class="since-tag">Desde 1996 • <span id="years-count"></span> Anos de Inovação</span>
-                <h1>Sua presença digital em 24 horas.</h1>
-                <p>Sites profissionais de alta performance por apenas <strong>R$ 999,90</strong>.</p>
-                <br>
-                <a href="#templates" class="btn-main">Explorar Catálogo</a>
+    <div class="preloader" id="preloader" aria-hidden="true">
+        <div class="preloader-ring"></div>
+        <span class="preloader-text">SENSOR<span>TATTOOFIX</span></span>
+    </div>
+
+    <header class="site-header" id="header">
+        <nav class="nav container" aria-label="Principal">
+            <a href="#" class="nav-brand">
+                <img src="assets/logo.jpg" alt="" width="44" height="44" class="nav-logo">
+                <span class="nav-wordmark">SENSOR<span>TATTOOFIX</span></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#solucao">Solução</a></li>
+                <li><a href="#videos">Vídeos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://www.sensortattoofix.com.br/en/" class="nav-lang" title="English">EN</a>
+                <a href="https://www.sensortattoofix.com.br/loja.html?utm_source=3n20&utm_medium=landing&utm_campaign=nav_cta&utm_content=comprar"
+                   class="btn btn-gold btn-sm magnetic"
+                   data-track="nav_comprar">
+                    Comprar
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="hero-bg">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+                <div class="orb orb-3"></div>
+                <div class="hero-grid-lines"></div>
+            </div>
+            <div class="container hero-inner">
+                <div class="hero-copy reveal">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        Tecnologia 3N20 · Patente Requerida
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="line">Relógio não</span>
+                        <span class="line gradient-text">reconhece o pulso</span>
+                        <span class="line">na tatuagem?</span>
+                    </h1>
+                    <p class="hero-sub">
+                        Restaure <strong>batimentos</strong>, <strong>treinos</strong> e <strong>pagamento por aproximação</strong> no Apple Watch, Samsung, Garmin e mais — sem desativar o sensor.
+                    </p>
+                    <p class="hero-tagline">A paz entre a tinta e o silício</p>
+                    <div class="hero-cta">
+                        <a href="https://www.sensortattoofix.com.br/loja.html?utm_source=3n20&utm_medium=landing&utm_campaign=hero&utm_content=comprar_agora"
+                           class="btn btn-gold btn-lg magnetic"
+                           data-track="hero_comprar">
+                            <span>Comprar Agora</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#videos" class="btn btn-ghost btn-lg magnetic">
+                            <i class="fas fa-play"></i>
+                            <span>Ver em Ação</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num" data-count="5000">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Clientes satisfeitos</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num" data-count="5" data-decimal="1">0</span>
+                            <span class="stat-label">Avaliação média</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num" data-count="30">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Modelos compatíveis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual reveal reveal-delay-2">
+                    <div class="hero-ring"></div>
+                    <div class="hero-ring hero-ring-2"></div>
+                    <div class="hero-image-wrap tilt-card" data-tilt>
+                        <img src="assets/relogio_home.jpg" alt="Apple Watch com Sensor Tattoo Fix em pulso tatuado" width="520" height="520" fetchpriority="high">
+                        <div class="hero-float-card">
+                            <i class="fas fa-heart-pulse"></i>
+                            <div>
+                                <strong>Batimentos OK</strong>
+                                <span>Leitura restaurada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
             </div>
         </section>
 
-        <section id="sobre" class="about-home">
-            <div class="container about-grid">
-                <div class="about-img"></div>
-                <div class="about-text">
-                    <span class="badge">Nossa Jornada</span>
-                    <h2>30 Anos de Tradição e Tecnologia</h2>
-                    <p>Nascemos em 1996. A 3N20 não é apenas uma agência de sites; somos uma empresa de tecnologia com três décadas de estrada.</p>
-                    <p>Entregamos sites otimizados que carregam instantaneamente e convertem visitantes em clientes reais, unindo a robustez do código à agilidade do mercado atual.</p>
+        <!-- MARCAS -->
+        <section class="brands" aria-label="Compatibilidade">
+            <div class="container">
+                <p class="brands-label reveal">Compatível com os principais smartwatches</p>
+                <div class="brands-track reveal">
+                    <span><i class="fab fa-apple"></i> Apple Watch</span>
+                    <span><i class="fas fa-circle-notch"></i> Samsung Galaxy</span>
+                    <span><i class="fas fa-compass"></i> Garmin</span>
+                    <span><i class="fas fa-watch"></i> Amazfit</span>
+                    <span><i class="fas fa-heartbeat"></i> Fitbit</span>
+                    <span><i class="fab fa-google"></i> Pixel Watch</span>
                 </div>
             </div>
         </section>
 
-        <section id="templates" class="templates-section">
+        <!-- PROBLEMA -->
+        <section class="section section-problem" id="problema">
             <div class="container">
-                <div class="badge-sla">⚡ SLA de Entrega: 24 Horas</div>
-                <h2>Modelos Profissionais</h2>
-                <div class="templates-grid" id="templates-container"></div>
+                <div class="section-head reveal">
+                    <span class="section-tag">O Problema Global</span>
+                    <h2>Milhares enfrentam isso <em>todos os dias</em></h2>
+                    <p>A pigmentação da tinta bloqueia a luz do sensor ótico. O relógio acha que saiu do pulso.</p>
+                </div>
+                <div class="problem-grid">
+                    <article class="problem-card reveal" data-tilt>
+                        <div class="problem-icon"><i class="fas fa-lock"></i></div>
+                        <h3>Senha o tempo todo</h3>
+                        <p>Pede PIN a cada poucos minutos porque não detecta o fluxo sanguíneo sob a tatuagem.</p>
+                        <div class="problem-glow"></div>
+                    </article>
+                    <article class="problem-card reveal reveal-delay-1" data-tilt>
+                        <div class="problem-icon"><i class="fas fa-person-running"></i></div>
+                        <h3>Treinos pausados</h3>
+                        <p>Atividades físicas interrompidas sozinhas — o GPS e o monitor cardíaco perdem referência.</p>
+                        <div class="problem-glow"></div>
+                    </article>
+                    <article class="problem-card reveal reveal-delay-2" data-tilt>
+                        <div class="problem-icon"><i class="fas fa-shield-halved"></i></div>
+                        <h3>Funções desativadas</h3>
+                        <p>Apple Pay, Google Pay e bloqueio inteligente ficam inutilizados por falta de detecção.</p>
+                        <div class="problem-glow"></div>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section id="contato" class="contact-section">
-            <div class="contact-overlay"></div>
-            <div class="container contact-content">
-                <h2>Pronto para começar?</h2>
-                <p>Fale diretamente com quem entende de tecnologia e impulsione seu negócio.</p>
-                <br>
-                <a href="https://wa.me/5511984215176" class="btn-whatsapp">
-                    <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+        <!-- SOLUÇÃO -->
+        <section class="section section-solution" id="solucao">
+            <div class="container solution-grid">
+                <div class="solution-visual reveal">
+                    <div class="solution-image-stack">
+                        <img src="assets/sensortattoofix.jpg" alt="Kit Sensor Tattoo Fix — lente de polímero" class="stack-main" loading="lazy">
+                        <img src="assets/relogio_sensor.jpg" alt="Sensor do smartwatch com lente aplicada" class="stack-float" loading="lazy">
+                    </div>
+                </div>
+                <div class="solution-copy reveal reveal-delay-1">
+                    <span class="section-tag section-tag-gold">Nossa Solução</span>
+                    <h2>Engenharia ótica que <span class="gradient-text">devolve o pulso</span></h2>
+                    <p class="lead">Lente de polímero sob medida + adesivo de fixação extrema. Interface ótica que permite ao sensor biométrico ler através da pele tatuada — mantendo 100% das funções do relógio.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check"></i> Correção ótica de precisão</li>
+                        <li><i class="fas fa-check"></i> Tecnologia com patente requerida no INPI</li>
+                        <li><i class="fas fa-check"></i> À prova d'água após cura de 72h</li>
+                        <li><i class="fas fa-check"></i> Remove sem danificar o sensor</li>
+                    </ul>
+                    <a href="https://www.sensortattoofix.com.br/?utm_source=3n20&utm_medium=landing&utm_campaign=solucao&utm_content=saiba_mais"
+                       class="btn btn-outline-gold magnetic"
+                       data-track="solucao_saiba_mais">
+                        Conhecer a tecnologia completa
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENTO FEATURES -->
+        <section class="section section-features">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-tag">Por que escolher</span>
+                    <h2>Kit profissional, <em>resultado real</em></h2>
+                </div>
+                <div class="bento reveal">
+                    <div class="bento-item bento-wide" data-tilt>
+                        <i class="fas fa-microscope"></i>
+                        <h3>Correção Ótica</h3>
+                        <p>Transmissor de alta precisão que contorna o bloqueio causado pela tinta.</p>
+                    </div>
+                    <div class="bento-item" data-tilt>
+                        <i class="fas fa-certificate"></i>
+                        <h3>Patenteada</h3>
+                        <p>Tecnologia original 3N20 no INPI.</p>
+                    </div>
+                    <div class="bento-item" data-tilt>
+                        <i class="fas fa-feather"></i>
+                        <h3>Hipoalergênica</h3>
+                        <p>Material macio e confortável no pulso.</p>
+                    </div>
+                    <div class="bento-item" data-tilt>
+                        <i class="fas fa-bolt"></i>
+                        <h3>Sem interferência</h3>
+                        <p>Carregamento wireless funciona normalmente.</p>
+                    </div>
+                    <div class="bento-item bento-tall" data-tilt>
+                        <i class="fas fa-droplet"></i>
+                        <h3>À Prova d'Água</h3>
+                        <p>Nade, treine e tome banho. Adesivo de fixação muito alta resiste a suor e submersão.</p>
+                    </div>
+                    <div class="bento-item bento-wide" data-tilt>
+                        <i class="fas fa-box-open"></i>
+                        <h3>Kit Completo</h3>
+                        <p>Lente sob medida · Adesivo · Lenço · Aplicador · Manual técnico</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMO FUNCIONA -->
+        <section class="section section-steps">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-tag">Instalação</span>
+                    <h2>Pronto em <em>menos de 2 minutos</em></h2>
+                </div>
+                <div class="steps reveal">
+                    <div class="step">
+                        <div class="step-num">01</div>
+                        <h3>Limpe</h3>
+                        <p>Use o lenço de álcool isopropílico no sensor do relógio.</p>
+                    </div>
+                    <div class="step-line" aria-hidden="true"></div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <h3>Alinhe</h3>
+                        <p>Posicione a lente no centro exato do sensor biométrico.</p>
+                    </div>
+                    <div class="step-line" aria-hidden="true"></div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <h3>Pressione</h3>
+                        <p>30 segundos de pressão suave para aderência total.</p>
+                    </div>
+                    <div class="step-line" aria-hidden="true"></div>
+                    <div class="step">
+                        <div class="step-num">04</div>
+                        <h3>Pronto</h3>
+                        <p>Aguarde 72h para exposição à água. Depois, use sem limites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VÍDEOS -->
+        <section class="section section-videos" id="videos">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-tag">Veja funcionando</span>
+                    <h2>Resultados <em>reais</em> em vídeo</h2>
+                    <p>Acompanhe depoimentos, testes e tutoriais no nosso canal.</p>
+                </div>
+                <div class="video-grid reveal">
+                    <div class="video-card video-featured">
+                        <a href="https://youtube.com/@sensortattoofix-ofc" target="_blank" rel="noopener" class="video-wrap video-poster">
+                            <img src="assets/relogio_home.jpg" alt="Preview — Sensor Tattoo Fix em ação" loading="lazy">
+                            <span class="video-play" aria-hidden="true"><i class="fas fa-play"></i></span>
+                            <span class="video-poster-label">Assistir no YouTube</span>
+                        </a>
+                        <div class="video-card-foot">
+                            <span class="video-badge"><i class="fab fa-youtube"></i> Canal Oficial</span>
+                            <a href="https://youtube.com/@sensortattoofix-ofc" target="_blank" rel="noopener" class="video-link">
+                                Ver todos os vídeos <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="video-side">
+                        <a href="https://www.tiktok.com/@sensortattoofixofc" target="_blank" rel="noopener" class="video-teaser" data-tilt>
+                            <div class="video-teaser-bg tiktok"></div>
+                            <div class="video-teaser-content">
+                                <i class="fab fa-tiktok"></i>
+                                <strong>TikTok</strong>
+                                <span>Testes virais e antes/depois</span>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/sensortattoofix" target="_blank" rel="noopener" class="video-teaser" data-tilt>
+                            <div class="video-teaser-bg instagram"></div>
+                            <div class="video-teaser-content">
+                                <i class="fab fa-instagram"></i>
+                                <strong>Instagram</strong>
+                                <span>Stories e reels de clientes</span>
+                            </div>
+                        </a>
+                        <div class="video-placeholder">
+                            <i class="fas fa-film"></i>
+                            <p>Seu vídeo de aplicação aqui</p>
+                            <span>Espaço reservado para embed personalizado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section class="section section-reviews" id="depoimentos">
+            <div class="section-head container reveal">
+                <span class="section-tag">Depoimentos</span>
+                <h2>O que dizem por aí</h2>
+                <div class="rating-pill">
+                    <span class="stars">★★★★★</span> 5,0 · Google, Mercado Livre, Shopee e Amazon
+                </div>
+            </div>
+            <div class="marquee-wrap" aria-hidden="true">
+                <div class="marquee">
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Produto excelente! Qualidade impecável, fácil aplicação e resultado surpreendente."</p><cite>Caroline Moreira · Google</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Produto top, resolveu meu problema!"</p><cite>MANOEL Ricardo · Google</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Achei no TikTok, comprei, e está funcionando perfeitamente."</p><cite>Cliente · Mercado Livre</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"E não é que o adesivo funcionou? Os batimentos voltaram a medir."</p><cite>Cliente · Amazon</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Compra verificada na Shopee — avaliação 5 estrelas."</p><cite>Cliente · Shopee</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Comprou com PayPal e a lente foi enviada para Portugal."</p><cite>Pedro Almeida · Portugal</cite></blockquote>
+                    <!-- duplicate for seamless loop -->
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Produto excelente! Qualidade impecável, fácil aplicação e resultado surpreendente."</p><cite>Caroline Moreira · Google</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Produto top, resolveu meu problema!"</p><cite>MANOEL Ricardo · Google</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"Achei no TikTok, comprei, e está funcionando perfeitamente."</p><cite>Cliente · Mercado Livre</cite></blockquote>
+                    <blockquote class="review-card"><div class="review-stars">★★★★★</div><p>"E não é que o adesivo funcionou? Os batimentos voltaram a medir."</p><cite>Cliente · Amazon</cite></blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- ONDE COMPRAR -->
+        <section class="section section-buy" id="comprar">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-tag section-tag-gold">Onde Comprar</span>
+                    <h2>Escolha seu canal preferido</h2>
+                    <p>A loja oficial tem PIX, cartão e PayPal com envio internacional.</p>
+                </div>
+                <a href="https://www.sensortattoofix.com.br/loja.html?utm_source=3n20&utm_medium=landing&utm_campaign=onde_comprar&utm_content=loja_oficial"
+                   class="store-hero reveal magnetic"
+                   data-track="loja_oficial">
+                    <img src="assets/logo.jpg" alt="" width="56" height="56">
+                    <div class="store-hero-info">
+                        <strong>Loja Oficial Sensor Tattoo Fix</strong>
+                        <span>PIX · Cartão · PayPal · Envio Brasil e exterior</span>
+                    </div>
+                    <span class="store-hero-cta">Comprar <i class="fas fa-arrow-right"></i></span>
                 </a>
+                <div class="stores-grid reveal">
+                    <a href="https://produto.mercadolivre.com.br/MLB-6664779166-pelicula-sensor-smartwatch-restaura-funcoes-em-pele-tatuada-_JM?utm_source=3n20&utm_medium=landing&utm_campaign=onde_comprar&utm_content=ml" target="_blank" rel="noopener" class="store-chip" data-tilt>
+                        <i class="fas fa-shopping-cart"></i> Mercado Livre
+                    </a>
+                    <a href="https://shopee.com.br/product/479290797/58259628035/?utm_source=3n20&utm_medium=landing&utm_campaign=onde_comprar&utm_content=shopee" target="_blank" rel="noopener" class="store-chip" data-tilt>
+                        <i class="fas fa-bag-shopping"></i> Shopee
+                    </a>
+                    <a href="https://www.amazon.com.br/dp/B0GYVBRGZS?utm_source=3n20&utm_medium=landing&utm_campaign=onde_comprar&utm_content=amazon" target="_blank" rel="noopener" class="store-chip" data-tilt>
+                        <i class="fab fa-amazon"></i> Amazon
+                    </a>
+                    <a href="https://vt.tiktok.com/ZS9juMxSmKGjN-mns6O/?utm_source=3n20&utm_medium=landing&utm_campaign=onde_comprar&utm_content=tiktok" target="_blank" rel="noopener" class="store-chip" data-tilt>
+                        <i class="fab fa-tiktok"></i> TikTok Shop
+                    </a>
+                </div>
             </div>
         </section>
 
-        <footer class="main-footer">
+        <!-- FAQ -->
+        <section class="section section-faq" id="faq">
+            <div class="container faq-layout">
+                <div class="faq-head reveal">
+                    <span class="section-tag">FAQ</span>
+                    <h2>Perguntas frequentes</h2>
+                    <p>Tudo o que você precisa saber antes de comprar.</p>
+                    <a href="https://www.sensortattoofix.com.br/#faq?utm_source=3n20&utm_medium=landing&utm_campaign=faq&utm_content=ver_todas" class="btn btn-ghost btn-sm">
+                        Ver todas as perguntas
+                    </a>
+                </div>
+                <div class="faq-list reveal reveal-delay-1">
+                    <details class="faq-item" open>
+                        <summary>Por que meu relógio pede senha o tempo todo na tatuagem?</summary>
+                        <p>Quando o sensor não detecta o pulso por causa da tinta, o relógio entende que foi removido e exige a senha. A lente corrige a leitura do fluxo sanguíneo, eliminando o bloqueio.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Desativar a detecção de pulso resolve?</summary>
+                        <p>Não. Isso desativa pagamentos por aproximação, bloqueio de segurança e monitoramento contínuo — transformando um smartwatch em um relógio comum.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Como instalar a lente?</summary>
+                        <p>Limpe o sensor, alinhe a lente no centro, pressione por 30 segundos. Aguarde 72h antes de mergulhar ou treinar intensamente.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>A lente sai na água ou no treino?</summary>
+                        <p>Não. O adesivo de fixação muito alta resiste a suor, umidade e submersão após o período de cura.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Posso remover sem danificar o relógio?</summary>
+                        <p>Sim. Retire com espátula plástica ou unha. Resíduos de cola saem com álcool isopropílico, deixando o sensor intacto.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="section section-cta">
             <div class="container">
-                <div class="footer-logo">3N20</div>
-                <p>&copy; 2026 3N20 - Fabio Nardoni. Todos os direitos reservados.</p>
+                <div class="cta-box reveal">
+                    <div class="cta-glow"></div>
+                    <h2>Recupere seu smartwatch <span class="gradient-text">hoje</span></h2>
+                    <p>Kit profissional com lente sob medida para o seu modelo. Entrega para todo o Brasil e exterior.</p>
+                    <div class="cta-actions">
+                        <a href="https://www.sensortattoofix.com.br/loja.html?utm_source=3n20&utm_medium=landing&utm_campaign=footer_cta&utm_content=comprar"
+                           class="btn btn-gold btn-lg magnetic"
+                           data-track="footer_comprar">
+                            Ir para a Loja Oficial
+                        </a>
+                        <a href="https://wa.me/5511913394665?utm_source=3n20&utm_medium=landing&utm_campaign=footer_cta&utm_content=whatsapp"
+                           class="btn btn-ghost btn-lg magnetic" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </div>
+        </section>
+    </main>
 
-    <div id="demo-viewer" style="display: none;">
-        <div id="demo-header-bar">
-            <span>Visualizando: <strong id="current-demo-name"></strong></span>
-            <div class="demo-actions">
-                <a id="demo-cta-btn" href="#" class="btn-demo-buy" target="_blank">Contratar</a>
-                <button onclick="closeDemo()" class="btn-back"><i class="fas fa-times"></i></button>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/logo.jpg" alt="" width="40" height="40">
+                <div>
+                    <strong>Sensor Tattoo Fix</strong>
+                    <span>Uma solução 3N20 · Desde 1996</span>
+                </div>
             </div>
+            <div class="footer-links">
+                <a href="https://www.sensortattoofix.com.br/?utm_source=3n20&utm_medium=landing&utm_campaign=footer&utm_content=site_oficial">Site Oficial</a>
+                <a href="https://www.instagram.com/sensortattoofix" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.tiktok.com/@sensortattoofixofc" target="_blank" rel="noopener">TikTok</a>
+                <a href="https://youtube.com/@sensortattoofix-ofc" target="_blank" rel="noopener">YouTube</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 3N20 · Fabio Nardoni. Todos os direitos reservados.</p>
         </div>
-        <div id="demo-content"></div>
+    </footer>
+
+    <div class="mobile-bar" id="mobile-bar" aria-hidden="true">
+        <a href="https://www.sensortattoofix.com.br/loja.html?utm_source=3n20&utm_medium=landing&utm_campaign=sticky_bar&utm_content=comprar"
+           class="btn btn-gold btn-block"
+           data-track="sticky_comprar">
+            Comprar — Loja Oficial
+        </a>
     </div>
 
-    <a href="https://wa.me/5511984215176" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://wa.me/5511913394665?utm_source=3n20&utm_medium=landing&utm_campaign=float&utm_content=whatsapp"
+       class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-    <script src="script.js"></script>
+    <script src="js/landing.js?v=1" defer></script>
 </body>
 </html>
