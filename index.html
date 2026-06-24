@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/site.css?v=5">
+    <link rel="stylesheet" href="css/site.css?v=6">
 </head>
 <body>
 
@@ -48,7 +48,7 @@
             <div class="hero-inner reveal">
                 <p class="eyebrow">Desde 1996 · São Paulo · CNPJ 29.321.223/0001-32</p>
                 <h1>Software, sistemas e produtos que saem do papel.</h1>
-                <p class="hero-lead">A 3n20 é um laboratório de execução: analista de sistemas, tech lead e desenvolvedor full stack com quase três décadas em bancos, indústria e utilities — hoje também fabricando produto físico com patente. Desenvolvemos com você: gestão, lojas virtuais, landing pages, APIs, chatbots e invenções novas.</p>
+                <p class="hero-lead">A 3n20 é uma equipe de desenvolvimento full stack — analistas, tech leads e devs com quase três décadas em bancos, indústria e utilities. Construímos com você: gestão, lojas virtuais, landing pages, APIs, apps, chatbots e produtos novos.</p>
                 <div class="hero-actions">
                     <a href="#servicos" class="btn btn-primary">O que fazemos</a>
                     <a href="#portfolio" class="btn btn-outline">Ver portfólio</a>
@@ -57,19 +57,38 @@
                     <span>Java · Spring</span><span>Node.js</span><span>Angular · React</span><span>Kafka</span><span>PostgreSQL</span><span>Cloudflare</span><span>IA aplicada</span>
                 </div>
             </div>
-            <div class="hero-symbol reveal">
-                <img src="assets/logo-mark.svg" alt="" width="160" height="160">
-                <p class="hero-symbol-caption">Ideia → engenharia → produto<br>software ou físico</p>
+            <div class="hero-founder reveal">
+                <img src="https://www.sensortattoofix.com.br/site/fundador-fabio.jpg?v=2" alt="Fábio Nardoni — 3n20" width="600" height="750" loading="eager">
+                <p class="hero-symbol-caption">Execução de ponta a ponta<br>software, loja e operação</p>
             </div>
         </div>
     </section>
 
     <div class="metrics reveal">
         <div class="metric"><strong>28+</strong><span>Anos em sistemas críticos e enterprise</span></div>
-        <div class="metric"><strong>Full stack</strong><span>Back-end, front-end, integração e operação</span></div>
+        <div class="metric"><strong>Devs full stack</strong><span>Back-end, front-end, mobile e integração</span></div>
         <div class="metric"><strong>Loja completa</strong><span>PIX, cartão, PayPal, frete, admin, e-mail</span></div>
-        <div class="metric"><strong>1 patente</strong><span>Produto físico + operação digital própria</span></div>
+        <div class="metric"><strong>Apps &amp; APIs</strong><span>Painéis, mobile web, workers e automação</span></div>
     </div>
+
+    <section class="section section-tight section-alt" id="tecnologias">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2>Tecnologias que usamos no dia a dia</h2>
+                <p>Stack moderna para sistema de gestão, e-commerce, integração bancária e sites de alta performance.</p>
+            </div>
+            <div class="tech-grid reveal">
+                <div class="tech-group"><h4>Back-end</h4><p>Java · Spring Boot · NestJS · Node.js · TypeScript · Python · REST · GraphQL</p></div>
+                <div class="tech-group"><h4>Front-end</h4><p>Angular · React · HTML5 · CSS3 · JavaScript · PWA · responsivo</p></div>
+                <div class="tech-group"><h4>Dados &amp; mensageria</h4><p>PostgreSQL · MongoDB · Redis · Kafka · TypeORM · SQL</p></div>
+                <div class="tech-group"><h4>Cloud &amp; DevOps</h4><p>Cloudflare Workers · GitHub Actions · CI/CD · DNS · KV · APIs</p></div>
+                <div class="tech-group"><h4>Pagamentos &amp; loja</h4><p>PIX · Mercado Pago · Asaas · PayPal · Correios · Uber · Resend</p></div>
+                <div class="tech-group"><h4>IA &amp; automação</h4><p>Chatbots · IBM Watson · IA generativa · e-mail transacional · analytics</p></div>
+                <div class="tech-group"><h4>Enterprise</h4><p>Lotus Notes · SAP · Oracle · integrações legadas · squads ágeis</p></div>
+                <div class="tech-group"><h4>Produto físico</h4><p>Protótipo · ótica · embalagem · patente INPI/PCT · supply chain</p></div>
+            </div>
+        </div>
+    </section>
 
     <section class="section" id="servicos">
         <div class="container">
@@ -137,10 +156,16 @@
                     <h3>Loja Sensor Tattoo Fix</h3>
                     <p>Stack completa que replicamos para outros clientes: checkout, Worker Cloudflare, KV, etiquetas, frete, pedidos, e-mail Resend e painel admin.</p>
                 </article>
-                <article class="portfolio-card">
+                <article class="portfolio-card portfolio-featured portfolio-squads">
                     <p class="label">Gestão · enterprise</p>
                     <h3>Sistema de gestão de squads</h3>
-                    <p>Painel NestJS + Angular + PostgreSQL: abertura de demandas, dossiê de candidatos, triagem, aprovação e notificações por e-mail para RH e coordenação.</p>
+                    <p>Painel completo NestJS + Angular + PostgreSQL para operações de RH e coordenação técnica em escala bancária.</p>
+                    <ul class="case-list compact">
+                        <li><strong>Demandas</strong><span>Abertura de squad, grade, perfil e status</span></li>
+                        <li><strong>Candidatos</strong><span>Dossiê, LinkedIn, currículo, triagem e aprovação</span></li>
+                        <li><strong>Usuários</strong><span>Perfis, autenticação e configurações</span></li>
+                        <li><strong>E-mail</strong><span>Notificações automáticas para RH e coordenadores</span></li>
+                    </ul>
                 </article>
                 <article class="portfolio-card">
                     <p class="label">Sites · 12 segmentos</p>
@@ -203,7 +228,12 @@
                     <p>Código, integrações, testes e deploy. Usamos IA e ferramentas modernas para acelerar sem perder qualidade.</p>
                 </article>
                 <article class="process-step">
-                    <p class="process-num">03 — Operar</p>
+                    <p class="process-num">03 — Proteger &amp; patentear</p>
+                    <h3>IP quando faz sentido</h3>
+                    <p>Para invenções e produtos físicos: desenho técnico, relatório, depósito INPI/PCT e estratégia de proteção — como no Sensor Tattoo Fix.</p>
+                </article>
+                <article class="process-step">
+                    <p class="process-num">04 — Operar</p>
                     <h3>Entrega e sustentação</h3>
                     <p>Publicação, treinamento, monitoramento e evolução. Loja que vende, sistema que o time usa, site que converte.</p>
                 </article>
@@ -235,45 +265,14 @@
         </div>
     </section>
 
-    <section class="section section-alt" id="trajetoria">
-        <div class="container split-section">
-            <div class="section-head reveal" style="margin-bottom:0">
-                <h2>Trajetória</h2>
-                <p>De Lotus Notes e SAP a produto físico com patente — a mesma disciplina de entrega.</p>
-            </div>
-            <div class="timeline reveal">
-                <article class="timeline-item">
-                    <p class="timeline-year">1996 — 2010</p>
-                    <h3>Sistemas corporativos</h3>
-                    <p>Lotus Notes/Domino, SAP, Oracle, SISPAG, PAGFOR, utilities e indústria.</p>
-                </article>
-                <article class="timeline-item">
-                    <p class="timeline-year">2010 — 2018</p>
-                    <h3>IA cognitiva</h3>
-                    <p>IBM Watson — chatbots, voicebots, Node.js, MongoDB, XP e grandes contas.</p>
-                </article>
-                <article class="timeline-item">
-                    <p class="timeline-year">2018 — 2025</p>
-                    <h3>Tech lead em bancos</h3>
-                    <p>Squads PIX PJ, Java Spring, Kafka, Angular, CI/CD — Capgemini e instituições financeiras.</p>
-                </article>
-                <article class="timeline-item">
-                    <p class="timeline-year">2024 — hoje</p>
-                    <h3>Produto &amp; 3n20</h3>
-                    <p>Sensor Tattoo Fix, loja completa, patente e laboratório de novos produtos.</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
     <section class="section" id="sobre">
         <div class="container founder-block reveal">
             <img src="https://www.sensortattoofix.com.br/site/fundador-fabio.jpg?v=2" alt="Fábio Nardoni — fundador 3n20" width="600" height="750" loading="lazy">
             <div>
-                <p class="meta">Fundador · analista · tech lead · dev</p>
+                <p class="meta">Fundador · analista · tech lead · dev · gerente</p>
                 <h3>Fábio Nardoni</h3>
-                <p>Analista de sistemas e desenvolvedor full stack com passagem por Capgemini, IBM, Sysprice, Sabesp e dezenas de projetos em bancos. Especialista em Lotus Notes, Watson, squads PIX, Java Spring, Node, Angular, React e IA generativa aplicada a produto.</p>
-                <p>Não paro na especificação: implanto, sustento, opero e escalo. A 3n20 reúne tudo isso — software sob medida, lojas para terceiros, sites rápidos e invenções como o Sensor Tattoo Fix.</p>
+                <p>Lidera a 3n20 com passagem por Capgemini, IBM, Sysprice, Sabesp e dezenas de projetos em bancos. Especialista em Lotus Notes, Watson, squads PIX, Java Spring, Node, Angular, React e IA generativa aplicada a produto.</p>
+                <p>A 3n20 reúne desenvolvedores full stack para software sob medida, lojas para clientes, sites rápidos e inovação — do sistema de gestão ao produto físico como o Sensor Tattoo Fix.</p>
                 <p><a href="https://www.linkedin.com/in/fabio-nardoni-a2a050169/" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
                 <a href="https://github.com/nardoniF" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a></p>
             </div>
@@ -364,7 +363,7 @@
     </span>
 </footer>
 
-<script src="js/main.js?v=4" defer></script>
-<script src="js/templates-catalog.js?v=1" defer></script>
+<script src="js/main.js?v=5" defer></script>
+<script src="js/templates-catalog.js?v=2" defer></script>
 </body>
 </html>

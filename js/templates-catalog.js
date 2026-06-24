@@ -32,7 +32,7 @@
   }
 
   grid.innerHTML = templates.map((t) => `
-    <article class="template-card reveal">
+    <article class="template-card">
       <div class="template-thumb" style="--accent:${t.color}">
         <img src="${t.img}" alt="${t.name}" loading="lazy" width="400" height="260">
         <span class="template-tag">${t.tag}</span>
