@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" role="img" aria-label="3n20 Applied Innovation">
+  <g transform="translate(50 8) scale(1)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M50 9 L50 3"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M22 50 L15 50"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M78 50 L85 50"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M50 91 L50 97"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M50 9 L38 16 L38 30"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M50 9 L62 16 L62 30"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M38 30 L26 37 L26 63"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M62 30 L74 37 L74 63"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M26 63 L38 70 L50 77"/>
+    <path stroke="#A8B2B8" stroke-width="2.8" d="M74 63 L62 70 L50 77"/>
+    <path stroke="#2E3439" stroke-width="4.6" d="M26 24 L26 76"/>
+    <path stroke="#2E3439" stroke-width="4.6" d="M26 24 L42 24 L42 38 L26 38"/>
+    <path stroke="#2E3439" stroke-width="4.6" d="M26 50 L40 50 L40 64 L26 64"/>
+    <path stroke="#5E7A85" stroke-width="4.8" d="M38 22 L38 78"/>
+    <path stroke="#5E7A85" stroke-width="4.8" d="M38 22 L66 78"/>
+    <path stroke="#2E3439" stroke-width="4.8" d="M66 22 L66 78"/>
+    <path stroke="#2E3439" stroke-width="4.6" d="M58 24 L76 24 L76 40 L58 56 L76 56 L76 76"/>
+  </g>
+  <text x="100" y="148" fill="#2E3439" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="42" font-weight="600" letter-spacing="-0.04em">3n20</text>
+  <text x="100" y="178" fill="#2E3439" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="0.38em">APPLIED INNOVATION</text>
+</svg>
