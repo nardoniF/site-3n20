@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="3n20">
+  <!-- Ideia ? n?cleo ? produto (tra?o ?nico, grav?vel) -->
+  <path d="M6 38 L22 10" stroke="#ffffff" stroke-width="2.25" stroke-linecap="round" fill="none"/>
+  <circle cx="24" cy="24" r="5.5" stroke="#3d6b7a" stroke-width="2.25" fill="none"/>
+  <rect x="30" y="18" width="12" height="12" rx="2.5" stroke="#ffffff" stroke-width="2.25" fill="none"/>
+  <path d="M22 10 L30 18" stroke="#3d6b7a" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".7"/>
+</svg>
