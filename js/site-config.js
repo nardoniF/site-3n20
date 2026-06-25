@@ -1,5 +1,6 @@
 window.SITE_3N20 = {
   whatsapp: '5511984215176',
-  emailPrimary: 'contato@3n20.com.br',
-  emailCc: 'f.nardoni@outlook.com.br'
+  // FormSubmit ativo hoje; trocar para contato@3n20.com.br após Email Routing na Cloudflare
+  emailPrimary: 'f.nardoni@outlook.com.br',
+  emailPlanned: 'contato@3n20.com.br'
 };
