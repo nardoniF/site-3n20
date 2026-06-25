@@ -41,8 +41,8 @@ a { color: inherit; text-decoration: none; }
     min-height: 72px; gap: 1rem;
 }
 .brand { display: flex; align-items: center; gap: .85rem; }
-.brand-mark { width: 32px; height: 32px; flex-shrink: 0; }
-.brand-word { height: 26px; width: auto; display: none; }
+.brand-mark { width: 32px; height: 32px; flex-shrink: 0; object-fit: contain; background: #fff; border-radius: 6px; padding: 3px; }
+.brand-word { height: 30px; width: auto; display: none; object-fit: contain; background: #fff; border-radius: 8px; padding: 5px 12px; }
 @media (min-width: 640px) {
     .brand-mark { display: none; }
     .brand-word { display: block; }
@@ -282,11 +282,7 @@ a { color: inherit; text-decoration: none; }
 .cap p { margin: 0; color: var(--muted); font-size: .875rem; line-height: 1.6; }
 
 .founder-block {
-    display: grid; grid-template-columns: 1fr 1.2fr; gap: 3rem; align-items: start;
-}
-.founder-block img {
-    width: 100%; aspect-ratio: 4/5; object-fit: cover;
-    border: 1px solid var(--line);
+    max-width: 720px;
 }
 .founder-block .meta {
     font-size: .75rem; letter-spacing: .12em; text-transform: uppercase;
