@@ -149,11 +149,8 @@ a { color: inherit; text-decoration: none; }
 .pillar p { margin: 0; color: var(--muted); font-size: .9rem; }
 
 .case-study {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;
+    max-width: 720px;
 }
-.case-media { display: grid; gap: 1rem; }
-.case-media img { border: 1px solid var(--line); width: 100%; }
-.case-media .thumb-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .case-content h3 { font-size: 1.5rem; font-weight: 500; margin: 0 0 1rem; }
 .case-content p { color: var(--muted); margin: 0 0 1rem; }
 .case-list { list-style: none; padding: 0; margin: 1.5rem 0; border-top: 1px solid var(--line); }
