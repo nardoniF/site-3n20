@@ -282,13 +282,18 @@ a { color: inherit; text-decoration: none; }
 .cap p { margin: 0; color: var(--muted); font-size: .875rem; line-height: 1.6; }
 
 .founder-block {
-    display: grid; grid-template-columns: 1fr 1.2fr; gap: 3rem; align-items: start;
+    max-width: 720px;
 }
-.founder-block img {
-    width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: center top;
-    border: 1px solid var(--line);
+.founder-head {
+    display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;
 }
-.founder-block .meta {
+.founder-avatar {
+    width: 72px; height: 72px; border-radius: 50%; object-fit: cover;
+    object-position: center top; flex-shrink: 0; border: 1px solid var(--line);
+}
+.founder-head h3 { font-size: 1.5rem; font-weight: 500; margin: 0 0 .35rem; }
+.founder-head .meta { margin: 0; }
+.founder-body .meta {
     font-size: .75rem; letter-spacing: .12em; text-transform: uppercase;
     color: var(--petroleum); margin-bottom: .75rem;
 }
