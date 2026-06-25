@@ -1,5 +1,5 @@
 (function () {
-  const WHATSAPP = '5511913394665';
+  const WHATSAPP = (window.SITE_3N20 && window.SITE_3N20.whatsapp) || '5511984215176';
   const grid = document.getElementById('templates-grid');
   if (!grid) return;
 
