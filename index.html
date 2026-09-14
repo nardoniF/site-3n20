@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/site.css?v=22">
+    <link rel="stylesheet" href="css/site.css?v=23">
 </head>
 <body>
 
@@ -34,6 +34,7 @@
         </a>
         <nav class="nav" id="nav" aria-label="Principal">
             <a href="#servicos">Serviços</a>
+            <a href="ecommerce/">E-commerce</a>
             <a href="#portfolio">Portfólio</a>
             <a href="#templates">Sites</a>
             <a href="#metodo">Método</a>
@@ -110,11 +111,19 @@
                     <p>Painéis administrativos, cadastros, workflows, relatórios e integrações. Gestão de funcionários, squads, demandas, candidatos e triagem — o que sua operação precisar.</p>
                     <ul class="service-tags"><li>Java · Spring</li><li>NestJS · Node</li><li>Angular · React</li><li>PostgreSQL</li><li>APIs REST</li></ul>
                 </article>
-                <article class="service-line">
+                <article class="service-line service-line-featured">
                     <p class="service-num">02</p>
-                    <h3>Lojas virtuais completas</h3>
-                    <p>E-commerce com checkout, PIX automático, cartão, PayPal internacional, frete Correios, convênio Uber Direct na operação, painel de pedidos, e-mails transacionais e analytics de funil. Também criamos lojas de curadoria — como o <strong>Capitão Fantástico</strong>, onde só entram produtos aprovados, com entrega e garantia claras — e plataformas de confiança como o <strong>Gobtween</strong> (pagamento retido até o bom fim).</p>
-                    <ul class="service-tags"><li>Mercado Pago · Asaas</li><li>PayPal</li><li>Uber Direct</li><li>Escrow</li><li>Admin</li></ul>
+                    <h3>E-commerce sob medida / loja online completa</h3>
+                    <p>Desenvolvemos e-commerces completos sob medida: vitrine rápida, painel administrativo, pagamentos, frete e operação com baixo custo de infraestrutura. Um dos nossos cases é o <strong>Sensor Tattoo Fix</strong> — loja própria no ar, com admin, checkout e integrações. Também entregamos curadoria (<strong>Capitão Fantástico</strong>) e plataformas de confiança (<strong>Gobtween</strong>).</p>
+                    <ul class="scope-bullets">
+                        <li>Checkout, carrinho e área do cliente</li>
+                        <li>Admin: produtos, preços, estoque e pedidos</li>
+                        <li>Pix, cartão e gateways; frete Correios, Super Frete, Jadlog, Uber Direct</li>
+                        <li>SEO, e-mails no domínio, código 100% do cliente</li>
+                        <li>Stack serverless (Cloudflare Workers + KV/D1) + suporte pós-entrega</li>
+                    </ul>
+                    <ul class="service-tags"><li>Mercado Pago · Asaas</li><li>PayPal</li><li>Uber Direct</li><li>Admin</li><li>Workers</li></ul>
+                    <a href="ecommerce/" class="btn btn-outline service-cta">Ver oferta de e-commerce</a>
                 </article>
                 <article class="service-line">
                     <p class="service-num">03</p>
@@ -158,16 +167,20 @@
             </div>
             <div class="portfolio-grid reveal">
                 <article class="portfolio-card portfolio-featured">
-                    <p class="label">Produto · patente</p>
+                    <p class="label">Produto · patente · e-commerce</p>
                     <h3>Sensor Tattoo Fix</h3>
-                    <p>Lente ótica para smartwatch em pele tatuada. Patente requerida, produção, loja oficial, PIX/cartão/PayPal, admin, Mercado Livre, Shopee, Amazon e envio internacional.</p>
-                    <div class="channels"><span>Loja</span><span>ML</span><span>Shopee</span><span>Amazon</span><span>PayPal INT</span></div>
-                    <a href="https://www.sensortattoofix.com.br" class="btn btn-primary" target="_blank" rel="noopener">Ver produto</a>
+                    <p>Lente ótica para smartwatch em pele tatuada — e a loja completa que vende o kit. Patente, produção, checkout, admin, PIX/cartão/PayPal, frete e marketplaces. É o case que mostra o tipo de e-commerce sob medida que a 3n20 desenvolve.</p>
+                    <div class="channels"><span>Loja</span><span>Admin</span><span>Checkout</span><span>ML · Shopee · Amazon</span><span>PayPal INT</span></div>
+                    <div class="portfolio-actions">
+                        <a href="https://www.sensortattoofix.com.br" class="btn btn-primary" target="_blank" rel="noopener">Ver produto</a>
+                        <a href="ecommerce/" class="btn btn-outline">Quero uma loja assim</a>
+                    </div>
                 </article>
                 <article class="portfolio-card">
-                    <p class="label">E-commerce · operação</p>
+                    <p class="label">E-commerce · operação · software</p>
                     <h3>Loja Sensor Tattoo Fix</h3>
-                    <p>Stack completa que replicamos para outros clientes: checkout, Worker Cloudflare, KV, etiquetas, frete, pedidos, e-mail Resend e painel admin.</p>
+                    <p>O que o cliente vê quando olha a stack: vitrine responsiva, carrinho, checkout, área do cliente, painel admin, Workers/KV, etiquetas, frete, pedidos, e-mail e analytics — software que a 3n20 replica sob medida.</p>
+                    <a href="ecommerce/" class="btn btn-outline">Oferta de e-commerce</a>
                 </article>
                 <article class="portfolio-card portfolio-featured">
                     <p class="label">Curadoria · e-commerce · 3n20</p>
@@ -285,19 +298,25 @@
     <section class="section section-tight" id="case-stf">
         <div class="container">
             <div class="section-head reveal">
-                <p class="eyebrow" style="margin-bottom:.75rem">Case em destaque</p>
-                <h2>Sensor Tattoo Fix — produto + operação digital</h2>
-                <p>Um dos projetos do portfólio — prova de que fazemos ponta a ponta, não só código.</p>
+                <p class="eyebrow" style="margin-bottom:.75rem">Case em destaque · e-commerce</p>
+                <h2>Sensor Tattoo Fix — produto + loja completa</h2>
+                <p>Prova no ar do e-commerce sob medida que a 3n20 desenvolve: não é só a lente — é a operação digital que vende o kit.</p>
             </div>
             <div class="case-study reveal">
                 <div class="case-content">
-                    <p>Milhões de pessoas tatuadas têm leitura imprecisa de batimentos e treinos no smartwatch. Desenvolvemos a lente ótica (patente), produção, e-commerce completo e seis canais de venda — tecnologia wearable, não consultoria esportiva.</p>
+                    <p>Milhões de pessoas tatuadas têm leitura imprecisa de batimentos e treinos no smartwatch. Desenvolvemos a lente ótica (patente), produção e o <strong>e-commerce completo</strong> — vitrine, checkout, admin, pagamentos, frete e seis canais de venda. É o software que um cliente bate o olho e reconhece: “é isso que a 3n20 entrega em loja online”.</p>
                     <ul class="case-list">
                         <li><strong>Engenharia</strong><span>Ótica, materiais, 30+ modelos</span></li>
-                        <li><strong>Digital</strong><span>Checkout, admin, analytics, API</span></li>
-                        <li><strong>Operação</strong><span>Frete, Uber, e-mail, marketplaces, INT</span></li>
+                        <li><strong>Loja</strong><span>Checkout, carrinho, área do cliente</span></li>
+                        <li><strong>Admin</strong><span>Produtos, preços, estoque, pedidos</span></li>
+                        <li><strong>Pagamentos</strong><span>Pix, cartão, PayPal internacional</span></li>
+                        <li><strong>Logística</strong><span>Correios, Uber Direct, envio INT</span></li>
+                        <li><strong>Infra</strong><span>Workers + KV, baixo custo operacional</span></li>
                     </ul>
-                    <a href="https://www.sensortattoofix.com.br/loja.html" class="btn btn-outline" target="_blank" rel="noopener">Ver loja</a>
+                    <div class="hero-actions" style="margin-top:1.25rem">
+                        <a href="https://www.sensortattoofix.com.br/loja.html" class="btn btn-primary" target="_blank" rel="noopener">Ver loja no ar</a>
+                        <a href="ecommerce/" class="btn btn-outline">Quero e-commerce sob medida</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -321,7 +340,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Vocês fazem loja virtual completa para meu negócio?</summary>
-                    <p>Sim — checkout, PIX, cartão, PayPal, frete Correios, convênio Uber Direct, painel de pedidos, e-mails e admin. Stack validada na loja Sensor Tattoo Fix.</p>
+                    <p>Sim — e-commerce sob medida: vitrine, checkout, admin, Pix/cartão, frete (Correios, Super Frete, Jadlog, Uber Direct), SEO, e-mails no domínio e código 100% seu. Stack validada na loja <strong>Sensor Tattoo Fix</strong>. Detalhes e orçamento em <a href="ecommerce/">3n20.com.br/ecommerce</a>.</p>
                 </details>
                 <details class="faq-item">
                     <summary>E o site de R$ 799,90 com templates?</summary>
@@ -342,9 +361,10 @@
     <section class="cta-band">
         <div class="container reveal">
             <h2>Vamos construir algo juntos?</h2>
-            <p>Site, loja, produto, redes sociais, integração Uber ou sistema novo — conversa inicial sem compromisso.</p>
+            <p>E-commerce sob medida, site, produto, redes sociais ou sistema — conversa inicial sem compromisso.</p>
             <div class="hero-actions">
-                <a href="#contato" class="btn btn-primary">Solicitar orçamento</a>
+                <a href="ecommerce/" class="btn btn-primary">E-commerce sob medida</a>
+                <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
             </div>
         </div>
     </section>
@@ -374,7 +394,7 @@
                         <option value="">O que você precisa?</option>
                         <option>Redes sociais / conteúdo</option>
                         <option>Site / landing page</option>
-                        <option>Loja virtual completa</option>
+                        <option>E-commerce sob medida / loja completa</option>
                         <option>Sistema de gestão</option>
                         <option>Integração / API / enterprise</option>
                         <option>Chatbot / IA</option>
