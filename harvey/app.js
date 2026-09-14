@@ -151,11 +151,11 @@ async function importFile(file) {
     const r = await fetch(apiUrl("/api/importar"), { method: "POST", body: fd });
     const data = await r.json();
     if (!r.ok && !data.ok) throw new Error(data.detail || "falha");
-    setStatus(importStatus, "Pasta criada.", "ok");
+.setStatus(importStatus, "Pasta criada.", "ok");
     selected = { id: data.id, path: data.path, meta: data.meta };
     selectCase(selected);
     await refreshCasos(data.id);
-    toast("Processo importado.");
+    toast("Processo na pasta · processo.pdf único.");
   } catch (e) {
     setStatus(importStatus, "Não consegui importar: " + e.message, "error");
     toast("Falha na importação");
@@ -165,7 +165,35 @@ async function importFile(file) {
   }
 }
 
+async function updateProcessFile(file) {
+  if (!file || !selected) return;
+  setBusy(true, "Sobrescrevendo processo.pdf…");
+  const fd = new FormData();
+  fd.append("case_id", selected.id);
+  fd.append("arquivo", file);
+  try {
+    const r = await fetch(apiUrl("/api/atualizar-processo"), { method: "POST", body: fd });
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || "falha");
+    selected = { id: data.id, path: data.path, meta: data.meta };
+    selectCase(selected);
+    await refreshCasos(data.id);
+    toast("processo.pdf atualizado (versão única).");
+  } catch (e) {
+    toast("Falha ao atualizar: " + e.message);
+  } finally {
+    setBusy(false);
+    const inp = document.getElementById("pdf-update");
+    if (inp) inp.value = "";
+  }
+}
+
 pdf.addEventListener("change", () => importFile(pdf.files[0]));
+
+const pdfUpdate = document.getElementById("pdf-update");
+if (pdfUpdate) {
+  pdfUpdate.addEventListener("change", () => updateProcessFile(pdfUpdate.files[0]));
+}
 
 ["dragenter", "dragover"].forEach((ev) => {
   dropzone.addEventListener(ev, (e) => {
