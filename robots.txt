@@ -1,0 +1,9 @@
+# https://3n20.com.br/robots.txt
+User-agent: *
+Allow: /
+
+# Protótipos e ferramentas internas — não indexar
+Disallow: /autokeysupply/
+Disallow: /harvey/
+
+Sitemap: https://3n20.com.br/sitemap.xml
