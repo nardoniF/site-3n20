@@ -192,11 +192,42 @@
     ]
   };
 
+  const faqEn = {
+    '@type': 'FAQPage',
+    '@id': 'https://3n20.com.br/en/ecommerce/#faq',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Does 3n20 build a full online store?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Custom e-commerce: storefront, checkout, admin, PIX/cards, shipping, SEO, domain email and source code 100% yours. Sensor Tattoo Fix is the live case.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Do you integrate ERP and marketplaces?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, on demand according to the partner API. Scope is defined in the quote.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Does the client own the code?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Source code and access are 100% yours — no closed-platform lock-in.'
+        }
+      }
+    ]
+  };
+
   const graph = [org, website];
   if (isEcommerce) {
     graph.push(lang === 'en' ? serviceEn : servicePt);
     graph.push(breadcrumbEcommerce);
-    if (lang === 'pt') graph.push(faqPt);
+    graph.push(lang === 'en' ? faqEn : faqPt);
   } else if (lang === 'pt') {
     graph.push(faqHomePt);
   }
