@@ -1,6 +1,5 @@
-/* Front: https://3n20.com.br/harvey/ — API: Render free (git Harvey). */
+/* Front: https://3n20.com.br/harvey/ — API Render free */
 window.HARVEY = {
   product: "Harvey.ai",
-  /* Após Blueprint no Render, confirme/atualize esta URL */
-  apiBase: "https://harvey-ai.onrender.com"
+  apiBase: "https://harvey-ai-a5b6.onrender.com"
 };
