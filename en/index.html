@@ -34,9 +34,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/site.css?v=26">
+    <link rel="stylesheet" href="../css/site.css?v=27">
     <script>window.STF_SEO = { page: 'home', lang: 'en' };</script>
-    <script src="../js/seo-schema.js?v=5" defer></script>
+    <script src="../js/seo-schema.js?v=6" defer></script>
 </head>
 <body>
 
@@ -54,10 +54,10 @@
         </a>
         <nav class="nav" id="nav" aria-label="Main">
             <a href="#services">What we do</a>
+            <a href="sites-rapidos/">Fast websites</a>
+            <a href="ecommerce/">E-commerce</a>
             <a href="#quote">Quote</a>
             <a href="#portfolio">Cases</a>
-            <a href="#about">About</a>
-            <a href="ecommerce/">E-commerce</a>
             <a href="#contact">Contact</a>
         </nav>
         <div class="header-actions">
@@ -289,42 +289,57 @@
                     <a href="https://www.xthemis.com.br" class="btn btn-primary" target="_blank" rel="noopener">View xThemis</a>
                 </article>
                 <article class="portfolio-card">
-                    <p class="label">Sites · clients</p>
-                    <h3>Bruna Bononi · ES · Recupera</h3>
-                    <p>Professional digital presence for health, sport and tax recovery.</p>
-                    <a href="https://brunabononi.com.br" class="btn btn-outline" target="_blank" rel="noopener">Example</a>
+                    <p class="label">Site · health</p>
+                    <h3>Bruna Bononi</h3>
+                    <p>Professional dentist site — specialties, WhatsApp and booking.</p>
+                    <a href="https://brunabononi.com.br" class="btn btn-outline" target="_blank" rel="noopener">View site</a>
                 </article>
                 <article class="portfolio-card">
-                    <p class="label">Templates</p>
-                    <h3>12 website models</h3>
+                    <p class="label">Site · sport</p>
+                    <h3>ES Sports Consulting</h3>
+                    <p>Bilingual site and lead capture for sports consulting.</p>
+                </article>
+                <article class="portfolio-card">
+                    <p class="label">Landing · tax</p>
+                    <h3>Recupera Tributos</h3>
+                    <p>Landing page, SEO and lead form for tax credit recovery.</p>
+                </article>
+                <article class="portfolio-card">
+                    <p class="label">Fast websites</p>
+                    <h3>12 templates</h3>
                     <p>From R$ 799.90 · delivery within 48h after briefing.</p>
-                    <a href="#templates" class="btn btn-outline">See catalog</a>
+                    <a href="sites-rapidos/" class="btn btn-outline">See catalog</a>
                 </article>
             </div>
         </div>
     </section>
 
-    <section class="section section-alt" id="templates">
+    <section class="section section-alt" id="fast-sites">
         <div class="container">
             <div class="section-head reveal">
-                <p class="eyebrow" style="margin-bottom:.75rem">Fast websites</p>
-                <h2>12 ready models</h2>
-                <p>For small businesses, clinics and local shops. Templates from <strong>R$ 799.90</strong> · custom <strong>R$ 999.90</strong>.</p>
+                <p class="eyebrow" style="margin-bottom:.75rem">Two tracks</p>
+                <h2>Fast websites or full e-commerce</h2>
+                <p>Templates for quick presence — or a store with brand, payments, shipping and languages. Pick the right page.</p>
             </div>
-            <div class="templates-grid" id="templates-grid"></div>
+            <div class="path-grid reveal">
+                <a class="path-card" href="sites-rapidos/">
+                    <span class="path-kicker">Fast websites</span>
+                    <h3>12 templates</h3>
+                    <p>From R$ 799.90 · custom R$ 999.90 · within 48h. Ideal for small local businesses.</p>
+                </a>
+                <a class="path-card" href="ecommerce/">
+                    <span class="path-kicker">E-commerce</span>
+                    <h3>Full operation</h3>
+                    <p>Brand, domain, multilingual, Mercado Pago, PayPal, Stripe, Correios, Jadlog, labels and admin.</p>
+                </a>
+                <a class="path-card" href="#quote">
+                    <span class="path-kicker">Quote</span>
+                    <h3>Build the scope</h3>
+                    <p>Mark what you need — product, brand, store, Ads, SEO — and we’ll reply.</p>
+                </a>
+            </div>
         </div>
     </section>
-
-    <div id="template-modal" class="modal" hidden>
-        <div class="modal-dialog">
-            <div class="modal-head">
-                <h3 id="template-modal-title">Demo</h3>
-                <button type="button" id="template-modal-close" class="modal-close" aria-label="Close">×</button>
-            </div>
-            <div id="template-modal-body"></div>
-            <p class="modal-foot">Visual demo · content and identity are customized in the real project.</p>
-        </div>
-    </div>
 
     <section class="section" id="faq">
         <div class="container" style="max-width:720px">
@@ -433,7 +448,6 @@
 
 <script src="../js/site-config.js?v=1"></script>
 <script src="../js/main.js?v=6" defer></script>
-<script src="../js/templates-catalog.js?v=3" defer></script>
 <script>
 (function () {
   var sel = document.getElementById('orcamento-principal');

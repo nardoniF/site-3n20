@@ -21,8 +21,8 @@
     },
     image: 'https://3n20.com.br/assets/og.png',
     description: lang === 'en'
-      ? 'We build products, brands and companies end to end: domain, logo, patents, website and full e-commerce. Live case Sensor Tattoo Fix. Applied innovation in São Paulo since 1996.'
-      : 'Criamos produto, marca e empresa de ponta a ponta: domínio, logo, patente, site e e-commerce completo. Case no ar Sensor Tattoo Fix. Inovação aplicada em São Paulo desde 1996.',
+      ? 'We build product, brand and e-commerce end to end: domain, logo, slogan, patents, website, marketplaces, Ads, SEO and AI. Applied innovation in São Paulo since 1996.'
+      : 'Criamos produto, marca e e-commerce de ponta a ponta: domínio, logo, slogan, patente, site, marketplaces, Ads, SEO e IA. Inovação aplicada em São Paulo desde 1996.',
     foundingDate: '1996',
     taxID: '29.321.223/0001-32',
     email: 'contato@3n20.com.br',
@@ -41,7 +41,7 @@
           'Product development and patents',
           'Marketplace stores Mercado Livre Shopee Amazon Magalu TikTok',
           'Ads campaign setup',
-          'CEO and site AI analysis',
+          'SEO and site AI analysis',
           'Chatbots and AI on websites',
           'Domain purchase and naming'
         ]
@@ -51,7 +51,7 @@
           'Criação de produto e patente',
           'Lojas em Mercado Livre Shopee Amazon Magalu TikTok',
           'Configuração de Ads',
-          'Análise de CEO e site com IA',
+          'Análise de SEO e site com IA',
           'Chatbots e IA no site',
           'Compra de domínio e naming'
         ],
@@ -94,7 +94,7 @@
       'Registro de patente'
     ],
     serviceType: 'Custom e-commerce and brand development',
-    description: 'Criamos sua loja do zero ou sua marca do zero: e-commerce completo (vitrine, checkout, admin), pagamentos Pix/cartão/internacional, frete com geração de etiquetas, compra de domínio, logo/marca, registro de nome e patente no Brasil e no exterior. Case Sensor Tattoo Fix no ar. Código 100% do cliente.',
+    description: 'Criamos sua loja do zero ou sua marca do zero: e-commerce completo (vitrine, checkout, admin), pagamentos Pix/cartão/internacional, frete com geração de etiquetas, domínio, logo/slogan, registro de nome, patente Brasil/exterior, marketplaces, Ads e SEO. Código 100% do cliente.',
     provider: { '@id': 'https://3n20.com.br/#organization' },
     areaServed: { '@type': 'Country', name: 'Brazil' },
     url: 'https://3n20.com.br/ecommerce/',
@@ -133,7 +133,7 @@
       'Patent filing'
     ],
     serviceType: 'Custom e-commerce and brand development',
-    description: 'We build your store from scratch or your brand from scratch: full e-commerce (storefront, checkout, admin), PIX/card/international payments, shipping with label generation, domain purchase, logo/brand, name registration and patents in Brazil and abroad. Live case: Sensor Tattoo Fix. Code 100% yours.',
+    description: 'We build your store from scratch or your brand from scratch: full e-commerce (storefront, checkout, admin), PIX/card/international payments, shipping with label generation, domain, logo/slogan, name registration, patents in Brazil and abroad, marketplaces, Ads and SEO. Code 100% yours.',
     provider: { '@id': 'https://3n20.com.br/#organization' },
     areaServed: { '@type': 'Country', name: 'Brazil' },
     url: 'https://3n20.com.br/en/ecommerce/',
@@ -179,7 +179,7 @@
         name: 'A 3n20 cria loja e marca do zero?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sim. Compramos domínio, desenvolvemos logo/marca, registramos nome quando precisar e entregamos e-commerce com Pix/cartão/internacional, frete e geração de etiquetas. O caminho completo é o mesmo do Sensor Tattoo Fix.'
+          text: 'Sim. Compramos domínio, desenvolvemos logo/marca e slogan, registramos nome quando precisar e entregamos e-commerce com Pix/cartão/internacional, frete, etiquetas, marketplaces, Ads e SEO.'
         }
       },
       {
@@ -218,7 +218,7 @@
         name: 'Do you build store and brand from scratch?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. We buy the domain, develop logo/brand, register the name when needed, and deliver e-commerce with PIX/card/international payments, shipping and label generation. The full path matches Sensor Tattoo Fix.'
+          text: 'Yes. We buy the domain, develop logo/brand and slogan, register the name when needed, and deliver e-commerce with PIX/card/international payments, shipping, labels, marketplaces, Ads and SEO.'
         }
       },
       {
@@ -257,7 +257,7 @@
         name: 'O que a 3n20 vende, em uma frase?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Criamos produto, marca e canais de venda — do nome, slogan, logo e patente à loja própria, marketplaces (Mercado Livre, Shopee, Amazon, Magalu, TikTok), Ads, análise de CEO com IA e chatbots. O Sensor Tattoo Fix é o case completo.'
+          text: 'Criamos produto, marca e e-commerce — do nome, slogan, logo e patente à loja própria, marketplaces (Mercado Livre, Shopee, Amazon, Magalu, TikTok), Ads, análise de SEO com IA e chatbots.'
         }
       },
       {

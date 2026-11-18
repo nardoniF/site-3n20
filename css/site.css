@@ -356,9 +356,14 @@ a { color: inherit; text-decoration: none; }
 .founder-block p { color: var(--muted); margin: 0 0 1rem; }
 
 .contact-grid {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 4rem;
-    padding-top: 2rem; border-top: 1px solid var(--line);
+    display: grid; grid-template-columns: 1fr; gap: 1.5rem;
+    max-width: 32rem;
 }
+#contato {
+    padding-bottom: 4rem;
+    background: var(--bg);
+}
+#contato .section-head { margin-bottom: 1.5rem; }
 .contact-meta p { color: var(--muted); font-size: .9375rem; margin: 0 0 .5rem; }
 .contact-meta a { color: var(--text); border-bottom: 1px solid var(--line); }
 .contact-meta a:hover { border-color: var(--petroleum); }
@@ -385,11 +390,15 @@ a { color: inherit; text-decoration: none; }
     display: grid; gap: .4rem; font-size: .8125rem; color: var(--muted);
 }
 .lead-form label.field > span { letter-spacing: .04em; }
-.lead-form input, .lead-form textarea, .lead-form select {
+.lead-form input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]),
+.lead-form textarea,
+.lead-form select {
     width: 100%; padding: .9rem 1rem; background: var(--bg);
     border: 1px solid var(--line); color: var(--text); font: inherit; font-size: .9375rem;
 }
-.lead-form input:focus, .lead-form textarea:focus, .lead-form select:focus {
+.lead-form input:not([type="checkbox"]):not([type="radio"]):focus,
+.lead-form textarea:focus,
+.lead-form select:focus {
     outline: none; border-color: var(--petroleum);
 }
 .lead-form textarea { min-height: 110px; resize: vertical; }
@@ -407,12 +416,16 @@ a { color: inherit; text-decoration: none; }
     display: grid; grid-template-columns: 1fr 1fr; gap: .5rem;
 }
 .option-grid label {
-    display: flex; align-items: flex-start; gap: .55rem;
-    padding: .7rem .8rem; border: 1px solid var(--line); background: var(--bg);
+    display: flex; align-items: center; gap: .65rem;
+    padding: .75rem .85rem; border: 1px solid var(--line); background: var(--bg);
     font-size: .8125rem; color: var(--text); cursor: pointer; line-height: 1.35;
+    min-width: 0;
 }
 .option-grid label:hover { border-color: var(--petroleum); }
-.option-grid input { margin-top: .15rem; flex-shrink: 0; accent-color: var(--petroleum); }
+.option-grid input[type="checkbox"] {
+    width: 1rem; height: 1rem; margin: 0; flex: 0 0 1rem;
+    accent-color: var(--petroleum); cursor: pointer;
+}
 .lead-form-actions {
     display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-top: .25rem;
 }
@@ -489,6 +502,7 @@ a { color: inherit; text-decoration: none; }
     padding: 2.5rem 0 3rem; border-top: 1px solid var(--line);
     display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem;
     font-size: .8125rem; color: var(--muted);
+    background: var(--bg);
 }
 .footer a { color: var(--muted); }
 .footer a:hover { color: var(--text); }
