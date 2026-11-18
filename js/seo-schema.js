@@ -21,8 +21,8 @@
     },
     image: 'https://3n20.com.br/assets/og.png',
     description: lang === 'en'
-      ? 'Software house in São Paulo: custom e-commerce, management systems, websites and applied innovation since 1996.'
-      : 'Software house em São Paulo: e-commerce sob medida, sistemas de gestão, sites e inovação aplicada desde 1996.',
+      ? 'Custom e-commerce development in São Paulo: full online stores, admin, checkout, payments and shipping. Live case Sensor Tattoo Fix. Also systems, websites and applied innovation since 1996.'
+      : 'Desenvolvimento de e-commerce sob medida em São Paulo: loja virtual completa, admin, checkout, pagamentos e frete. Case no ar Sensor Tattoo Fix. Também sistemas, sites e inovação aplicada desde 1996.',
     foundingDate: '1996',
     taxID: '29.321.223/0001-32',
     email: 'contato@3n20.com.br',
@@ -34,11 +34,16 @@
       addressCountry: 'BR'
     },
     areaServed: { '@type': 'Country', name: 'Brazil' },
+    knowsAbout: lang === 'en'
+      ? ['Custom e-commerce development', 'Online store development', 'Checkout and payments', 'Shipping integrations', 'Admin panels']
+      : ['Desenvolvimento de e-commerce', 'Criação de loja virtual', 'Checkout e pagamentos', 'Integração de frete', 'Painel administrativo'],
     sameAs: [
       'https://www.sensortattoofix.com.br',
       'https://gobtween.com',
-      'https://www.capitaofantastico.com.br'
+      'https://www.capitaofantastico.com.br',
+      'https://www.xthemis.com.br'
     ],
+    makesOffer: { '@id': 'https://3n20.com.br/ecommerce/#service' },
     contactPoint: [{
       '@type': 'ContactPoint',
       telephone: '+55-11-98421-5176',
@@ -223,9 +228,8 @@
     ]
   };
 
-  const graph = [org, website];
+  const graph = [org, website, lang === 'en' ? serviceEn : servicePt];
   if (isEcommerce) {
-    graph.push(lang === 'en' ? serviceEn : servicePt);
     graph.push(breadcrumbEcommerce);
     graph.push(lang === 'en' ? faqEn : faqPt);
   } else if (lang === 'pt') {
