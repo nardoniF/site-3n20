@@ -37,27 +37,23 @@
     knowsAbout: lang === 'en'
       ? [
           'Custom e-commerce development',
-          'Online store from scratch',
-          'Brand creation from scratch',
-          'PIX and card payments',
-          'International payments',
-          'Shipping label generation',
-          'Domain registration',
-          'Logo and brand design',
-          'Trademark name registration',
-          'Patent filing Brazil and abroad'
+          'Brand, logo and slogan creation',
+          'Product development and patents',
+          'Marketplace stores Mercado Livre Shopee Amazon Magalu TikTok',
+          'Ads campaign setup',
+          'CEO and site AI analysis',
+          'Chatbots and AI on websites',
+          'Domain purchase and naming'
         ]
       : [
           'Desenvolvimento de e-commerce',
-          'Criar loja virtual do zero',
-          'Criar marca do zero',
-          'Pagamento Pix e cartão',
-          'Pagamento internacional',
-          'Geração de etiquetas de frete',
-          'Compra de domínio',
-          'Desenvolvimento de logo e marca',
-          'Registro de nome e marca',
-          'Registro de patente Brasil e exterior'
+          'Criação de marca, logo e slogan',
+          'Criação de produto e patente',
+          'Lojas em Mercado Livre Shopee Amazon Magalu TikTok',
+          'Configuração de Ads',
+          'Análise de CEO e site com IA',
+          'Chatbots e IA no site',
+          'Compra de domínio e naming'
         ],
     sameAs: [
       'https://www.sensortattoofix.com.br',
@@ -258,26 +254,26 @@
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'A 3n20 cria produto, marca e loja do zero?',
+        name: 'O que a 3n20 vende, em uma frase?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sim — do domínio e da patente ao e-commerce no ar: logo, registro, site, Pix/cartão/internacional, frete e etiquetas. O Sensor Tattoo Fix é o case completo. Detalhes em 3n20.com.br/ecommerce.'
+          text: 'Criamos produto, marca e canais de venda — do nome, slogan, logo e patente à loja própria, marketplaces (Mercado Livre, Shopee, Amazon, Magalu, TikTok), Ads, análise de CEO com IA e chatbots. O Sensor Tattoo Fix é o case completo.'
         }
       },
       {
         '@type': 'Question',
-        name: 'A 3n20 só faz a lente do Sensor Tattoo Fix?',
+        name: 'Fazem slogan, logo, domínio e patente?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Não. A 3n20 cria produto, marca, empresa e operação digital — sistemas, lojas, sites, integrações e IA. O Sensor Tattoo Fix é um produto do portfólio, incluindo a loja.'
+          text: 'Sim. Encontramos nome, compramos domínio, criamos logo e slogan, registramos marca e depositamos patente no Brasil (INPI) e no exterior quando fizer sentido.'
         }
       },
       {
         '@type': 'Question',
-        name: 'Desenvolvem sistema de gestão interno?',
+        name: 'Montam loja no site e em marketplaces?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sim — cadastros, workflows, painéis, relatórios e integrações. Experiência com sistemas de squads, RH e operações enterprise.'
+          text: 'Sim — e-commerce próprio com Pix/cartão/internacional e etiquetas, além de Mercado Livre, Shopee, Amazon, Magazine Luiza e TikTok Shop. Peça orçamento em 3n20.com.br/#orcamento.'
         }
       }
     ]

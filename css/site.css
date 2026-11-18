@@ -417,6 +417,48 @@ a { color: inherit; text-decoration: none; }
     display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-top: .25rem;
 }
 .lead-form-hint { margin: 0; font-size: .8125rem; color: var(--muted); }
+
+.path-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    background: var(--line); border: 1px solid var(--line);
+}
+.path-card {
+    display: block; background: var(--bg); padding: 1.75rem 1.5rem;
+    transition: background .25s var(--ease);
+}
+.path-card:hover { background: var(--bg-elevated); }
+.path-kicker {
+    display: block; font-size: .6875rem; font-weight: 600;
+    letter-spacing: .14em; color: var(--petroleum); margin-bottom: .75rem;
+}
+.path-card h3 { margin: 0 0 .5rem; font-size: 1.2rem; font-weight: 500; }
+.path-card p { margin: 0; color: var(--muted); font-size: .875rem; }
+
+.offer-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    background: var(--line); border: 1px solid var(--line);
+}
+.offer-block {
+    background: var(--bg); padding: 1.5rem 1.35rem;
+}
+.offer-block h3 {
+    margin: 0 0 1rem; font-size: 1rem; font-weight: 500;
+}
+.offer-block ul {
+    list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem;
+}
+.offer-block li {
+    position: relative; padding-left: 1rem;
+    color: var(--muted); font-size: .875rem;
+}
+.offer-block li::before {
+    content: ""; position: absolute; left: 0; top: .55em;
+    width: .35rem; height: .35rem; border-radius: 50%; background: var(--petroleum);
+}
+.offer-note {
+    margin: 1.5rem 0 0; color: var(--muted); font-size: .9rem; max-width: 52rem;
+}
+
 @media (max-width: 640px) {
     .lead-form .field-row, .option-grid { grid-template-columns: 1fr; }
 }
@@ -624,7 +666,8 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 860px) {
     .hero-grid, .process, .capabilities, .contact-grid, .founder-block,
     .case-study, .split-section, .pillars, .metrics, .service-lines,
-    .portfolio-grid, .templates-grid, .tech-grid { grid-template-columns: 1fr; }
+    .portfolio-grid, .templates-grid, .tech-grid,
+    .path-grid, .offer-grid { grid-template-columns: 1fr; }
     .hero-compact .hero-grid { min-height: auto; }
     .hero-logo-panel { max-width: 260px; margin: 1.5rem auto 0; }
     #metodo .process { grid-template-columns: 1fr; }
