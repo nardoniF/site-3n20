@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume — Fabio Nardoni</title>
+  <meta name="robots" content="noindex">
+  <style>
+    :root {
+      --ink: #14202a;
+      --muted: #4a5a66;
+      --line: #d8dee4;
+      --accent: #1e3a44;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: #eef1f4;
+      line-height: 1.45;
+      font-size: 10.5pt;
+    }
+    .page {
+      max-width: 820px;
+      margin: 1.5rem auto;
+      background: #fff;
+      padding: 2.25rem 2.5rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,.08);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    h1 {
+      margin: 0 0 .25rem;
+      font-size: 1.65rem;
+      letter-spacing: -.02em;
+      font-weight: 700;
+    }
+    .role {
+      margin: 0;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: .95rem;
+    }
+    .contacts {
+      text-align: right;
+      font-size: .82rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .contacts a { color: var(--accent); text-decoration: none; }
+    h2 {
+      margin: 1.15rem 0 .45rem;
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: .25rem;
+    }
+    p { margin: 0 0 .65rem; color: var(--ink); }
+    .summary { color: var(--muted); }
+    .job { margin-bottom: .95rem; }
+    .job-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: baseline;
+    }
+    .job-head h3 { margin: 0; font-size: 1rem; font-weight: 650; }
+    .job-head .when { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+    .job .org { margin: .1rem 0 .35rem; color: var(--muted); font-size: .9rem; }
+    ul { margin: .2rem 0 0; padding-left: 1.1rem; }
+    li { margin-bottom: .22rem; }
+    .two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 2rem;
+    }
+    .skills { margin: 0; padding: 0; list-style: none; }
+    .skills li { margin-bottom: .3rem; }
+    .skills strong { color: var(--accent); }
+    .toolbar {
+      max-width: 820px;
+      margin: 1rem auto 0;
+      display: flex;
+      gap: .75rem;
+      justify-content: flex-end;
+      padding: 0 .5rem;
+    }
+    .toolbar a, .toolbar button {
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: .45rem .8rem;
+      border-radius: 6px;
+      font-size: .85rem;
+      cursor: pointer;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    @media print {
+      body { background: #fff; }
+      .page { box-shadow: none; margin: 0; max-width: none; padding: 0; }
+      .toolbar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="fabio-nardoni-pt.html">Português</a>
+    <button type="button" onclick="window.print()">Print / PDF</button>
+  </div>
+  <article class="page">
+    <header>
+      <div>
+        <h1>Fabio Nardoni</h1>
+        <p class="role">Engineering Coordinator · Software Architect · Founder, 3N20</p>
+      </div>
+      <div class="contacts">
+        São Paulo, Brazil · Remote<br>
+        <a href="mailto:contato@3n20.com.br">contato@3n20.com.br</a><br>
+        <a href="https://linkedin.com/in/fabio-nardoni-a2a050169">linkedin.com/in/fabio-nardoni-a2a050169</a><br>
+        <a href="https://3n20.com.br">3n20.com.br</a>
+      </div>
+    </header>
+
+    <h2>Summary</h2>
+    <p class="summary">Engineering leader and software architect with nearly three decades in technology. Combines cluster coordination (10+ squads), full-stack architecture, applied AI since 2017, and end-to-end digital product building under 3N20. Experience in critical financial systems, technology modernization, and agent-assisted engineering.</p>
+
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Engineering Coordinator</h3>
+        <span class="when">Feb 2026 — Present</span>
+      </div>
+      <p class="org">Capgemini · São Paulo (remote)</p>
+      <ul>
+        <li>Coordinate a cluster of more than 10 squads: portfolio, capacity, allocation, talent development, and leadership mentoring.</li>
+        <li>Sequential and cumulative scope as Full Stack Tech Lead and Cluster Coordinator, retaining architectural governance.</li>
+        <li>Drive generative AI adoption (testing, deployments, productivity); as a coordinator, took part in initiatives with other coordinators involving more than 160 people in AI skills research and development.</li>
+        <li>Stack modernization, technical debt reduction, mentoring on Clean Code and Design Patterns.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Founder</h3>
+        <span class="when">ongoing · present</span>
+      </div>
+      <p class="org">3N20 Soluções Tecnológicas · CNPJ 29.321.223/0001-32</p>
+      <ul>
+        <li>End-to-end ownership: engineering, platform, payments, logistics, international SEO, marketplaces, and commercial operations.</li>
+        <li>Cases: Sensor Tattoo Fix, Sensor Crash Fix, Capitão Fantástico, Gobtween, xThemis.</li>
+        <li>Serverless architecture (Cloudflare Workers, D1, KV) and agent-assisted engineering with human audit and release control.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Full Stack Developer / Technical Lead</h3>
+        <span class="when">Dec 2018 — Feb 2026</span>
+      </div>
+      <p class="org">IBM · São Paulo</p>
+      <ul>
+        <li>Financial-institution solutions: account opening, portability (Spring, SQL, MQ, Kafka), CI/CD (Angular, Spring, Cassandra).</li>
+        <li>IBM Watson chatbot (Node.js, MongoDB); React Native / React app and portal.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Watson Analyst</h3>
+        <span class="when">Nov 2017 — Dec 2018</span>
+      </div>
+      <p class="org">Sysprice · XP Investimentos</p>
+      <ul>
+        <li>Watson Assistant chatbot; voicebot POC (Voice Gateway, Avaya IVR, STT/TTS); internal Node.js tooling.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Lotus Notes Specialist</h3>
+        <span class="when">Jan 2013 — Jun 2017</span>
+      </div>
+      <p class="org">Tibério Construções e Incorporações</p>
+      <ul>
+        <li>Web services and integrations; Itaú SISPAG and Santander PAGFOR (FEBRABAN, encryption, approval workflows).</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <h3>Systems Developer Analyst</h3>
+        <span class="when">Apr 2008 — Aug 2014</span>
+      </div>
+      <p class="org">Sabesp</p>
+      <ul>
+        <li>NR10 project: power-point inspections, non-conformities, and improvement plans (Oracle).</li>
+      </ul>
+    </div>
+
+    <div class="two">
+      <div>
+        <h2>Education</h2>
+        <ul class="skills">
+          <li><strong>Information Systems</strong> — Universidade Sant'Anna (2000–2005)</li>
+          <li><strong>Data Processing Technician</strong> — Chafic (1997–1999)</li>
+          <li>IBM Enterprise Design Thinking Practitioner (2019)</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li><strong>Leadership:</strong> cluster coordination, mentoring, portfolio</li>
+          <li><strong>Architecture:</strong> full stack, integrations, serverless</li>
+          <li><strong>AI:</strong> Watson, generative AI, agentic engineering</li>
+          <li><strong>Stack:</strong> Java/Spring, Node, React/Angular, Kafka, Cloudflare</li>
+          <li><strong>Product:</strong> e-commerce, payments, SEO, marketplaces</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Languages</h2>
+    <p>Portuguese (native) · English (professional)</p>
+  </article>
+</body>
+</html>
