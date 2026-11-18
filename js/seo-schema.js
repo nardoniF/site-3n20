@@ -21,8 +21,8 @@
     },
     image: 'https://3n20.com.br/assets/og.png',
     description: lang === 'en'
-      ? 'Custom e-commerce development in São Paulo: full online stores, admin, checkout, payments and shipping. Live case Sensor Tattoo Fix. Also systems, websites and applied innovation since 1996.'
-      : 'Desenvolvimento de e-commerce sob medida em São Paulo: loja virtual completa, admin, checkout, pagamentos e frete. Case no ar Sensor Tattoo Fix. Também sistemas, sites e inovação aplicada desde 1996.',
+      ? 'We build products, brands and companies end to end: domain, logo, patents, website and full e-commerce. Live case Sensor Tattoo Fix. Applied innovation in São Paulo since 1996.'
+      : 'Criamos produto, marca e empresa de ponta a ponta: domínio, logo, patente, site e e-commerce completo. Case no ar Sensor Tattoo Fix. Inovação aplicada em São Paulo desde 1996.',
     foundingDate: '1996',
     taxID: '29.321.223/0001-32',
     email: 'contato@3n20.com.br',
@@ -35,8 +35,30 @@
     },
     areaServed: { '@type': 'Country', name: 'Brazil' },
     knowsAbout: lang === 'en'
-      ? ['Custom e-commerce development', 'Online store development', 'Checkout and payments', 'Shipping integrations', 'Admin panels']
-      : ['Desenvolvimento de e-commerce', 'Criação de loja virtual', 'Checkout e pagamentos', 'Integração de frete', 'Painel administrativo'],
+      ? [
+          'Custom e-commerce development',
+          'Online store from scratch',
+          'Brand creation from scratch',
+          'PIX and card payments',
+          'International payments',
+          'Shipping label generation',
+          'Domain registration',
+          'Logo and brand design',
+          'Trademark name registration',
+          'Patent filing Brazil and abroad'
+        ]
+      : [
+          'Desenvolvimento de e-commerce',
+          'Criar loja virtual do zero',
+          'Criar marca do zero',
+          'Pagamento Pix e cartão',
+          'Pagamento internacional',
+          'Geração de etiquetas de frete',
+          'Compra de domínio',
+          'Desenvolvimento de logo e marca',
+          'Registro de nome e marca',
+          'Registro de patente Brasil e exterior'
+        ],
     sameAs: [
       'https://www.sensortattoofix.com.br',
       'https://gobtween.com',
@@ -68,11 +90,15 @@
     name: 'Desenvolvimento de e-commerce sob medida',
     alternateName: [
       'Criação de loja virtual',
+      'Criar loja do zero',
+      'Criar marca do zero',
       'Loja online completa',
-      'E-commerce serverless'
+      'E-commerce serverless',
+      'Desenvolvimento de logo e marca',
+      'Registro de patente'
     ],
-    serviceType: 'Custom e-commerce development',
-    description: 'Desenvolvimento de loja virtual completa: vitrine responsiva, checkout, carrinho, área do cliente, painel administrativo, Pix/cartão, frete (Correios, Super Frete, Jadlog, Uber Direct), SEO, e-mails no domínio e código 100% do cliente. Stack Cloudflare Workers + KV/D1. Case de referência: Sensor Tattoo Fix.',
+    serviceType: 'Custom e-commerce and brand development',
+    description: 'Criamos sua loja do zero ou sua marca do zero: e-commerce completo (vitrine, checkout, admin), pagamentos Pix/cartão/internacional, frete com geração de etiquetas, compra de domínio, logo/marca, registro de nome e patente no Brasil e no exterior. Case Sensor Tattoo Fix no ar. Código 100% do cliente.',
     provider: { '@id': 'https://3n20.com.br/#organization' },
     areaServed: { '@type': 'Country', name: 'Brazil' },
     url: 'https://3n20.com.br/ecommerce/',
@@ -86,13 +112,15 @@
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Escopo típico de e-commerce 3n20',
+      name: 'Escopo e-commerce e marca 3n20',
       itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Vitrine e checkout responsivos' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Painel administrativo de produtos e pedidos' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Integração de pagamentos Pix e cartão' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Frete e etiquetas (Correios, Super Frete, Jadlog, Uber Direct)' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'SEO e e-mails corporativos no domínio' } }
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Loja virtual do zero — vitrine, checkout e admin' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Pagamentos Pix, cartão e versão internacional' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Frete e geração/impressão de etiquetas' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Compra de domínio e e-mails no domínio' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Desenvolvimento de logo e identidade de marca' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Registro de nome/marca' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Registro de patente no Brasil e no exterior' } }
       ]
     }
   };
@@ -101,12 +129,31 @@
     '@type': 'Service',
     '@id': 'https://3n20.com.br/en/ecommerce/#service',
     name: 'Custom e-commerce development',
-    alternateName: ['Online store development', 'Full custom shop'],
-    serviceType: 'Custom e-commerce development',
-    description: 'Full online store: responsive storefront, checkout, cart, customer area, admin panel, PIX/cards, shipping labels, SEO, domain email and code you own. Cloudflare Workers + KV/D1. Reference case: Sensor Tattoo Fix.',
+    alternateName: [
+      'Online store from scratch',
+      'Brand from scratch',
+      'Full custom shop',
+      'Logo and brand development',
+      'Patent filing'
+    ],
+    serviceType: 'Custom e-commerce and brand development',
+    description: 'We build your store from scratch or your brand from scratch: full e-commerce (storefront, checkout, admin), PIX/card/international payments, shipping with label generation, domain purchase, logo/brand, name registration and patents in Brazil and abroad. Live case: Sensor Tattoo Fix. Code 100% yours.',
     provider: { '@id': 'https://3n20.com.br/#organization' },
     areaServed: { '@type': 'Country', name: 'Brazil' },
-    url: 'https://3n20.com.br/en/ecommerce/'
+    url: 'https://3n20.com.br/en/ecommerce/',
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: '3n20 e-commerce and brand scope',
+      itemListElement: [
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Online store from scratch' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'PIX, card and international payments' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Shipping and label generation' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Domain purchase and domain email' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Logo and brand identity' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Name/trademark registration' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Patent filing in Brazil and abroad' } }
+      ]
+    }
   };
 
   const breadcrumbEcommerce = {
@@ -133,26 +180,26 @@
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'A 3n20 desenvolve loja virtual completa?',
+        name: 'A 3n20 cria loja e marca do zero?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sim. Entregamos e-commerce sob medida: vitrine, checkout, admin, Pix/cartão, frete (Correios, Super Frete, Jadlog, Uber Direct), SEO, e-mails no domínio e código-fonte 100% do cliente. A loja Sensor Tattoo Fix é o case no ar.'
+          text: 'Sim. Compramos domínio, desenvolvemos logo/marca, registramos nome quando precisar e entregamos e-commerce com Pix/cartão/internacional, frete e geração de etiquetas. O caminho completo é o mesmo do Sensor Tattoo Fix.'
         }
       },
       {
         '@type': 'Question',
-        name: 'Qual a diferença de um e-commerce 3n20 para um site institucional?',
+        name: 'Fazem registro de patente no Brasil e no exterior?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Não é página com botão de compra. É operação completa: catálogo, carrinho, checkout, painel administrativo, pedidos, pagamentos, frete/etiquetas e infraestrutura serverless de baixo custo.'
+          text: 'Sim — orientação e depósito no Brasil (INPI) e estratégia internacional quando o produto exige proteção fora. Escopo e honorários entram no orçamento.'
         }
       },
       {
         '@type': 'Question',
-        name: 'Integram ERP e marketplaces?',
+        name: 'Quais pagamentos e frete entram no e-commerce?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sim, sob demanda e conforme a API do parceiro (ERP ou marketplace). O escopo é definido no orçamento.'
+          text: 'Pix, cartão e versão internacional (PayPal/Stripe). Frete com Correios, Super Frete, Jadlog e Uber Direct, com geração/impressão de etiquetas no admin.'
         }
       },
       {
@@ -160,38 +207,7 @@
         name: 'O código fica com o cliente?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sim. Código-fonte e acessos ficam 100% do cliente, sem lock-in de plataforma fechada.'
-        }
-      }
-    ]
-  };
-
-  const faqHomePt = {
-    '@type': 'FAQPage',
-    '@id': 'https://3n20.com.br/#faq',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'Vocês fazem loja virtual completa para meu negócio?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Sim — e-commerce sob medida: vitrine, checkout, admin, Pix/cartão, frete (Correios, Super Frete, Jadlog, Uber Direct), SEO, e-mails no domínio e código 100% seu. Stack validada na loja Sensor Tattoo Fix. Detalhes em 3n20.com.br/ecommerce.'
-        }
-      },
-      {
-        '@type': 'Question',
-        name: 'A 3n20 só faz a lente do Sensor Tattoo Fix?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Não. A 3n20 é uma software house — sistemas de gestão, lojas virtuais, sites, integrações e IA. O Sensor Tattoo Fix é um produto do portfólio, incluindo a operação digital e a loja.'
-        }
-      },
-      {
-        '@type': 'Question',
-        name: 'Desenvolvem sistema de gestão interno?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Sim — cadastros, workflows, painéis, relatórios e integrações. Experiência com sistemas de squads, RH e operações enterprise.'
+          text: 'Sim. Código-fonte, domínio e painéis ficam 100% do cliente, sem lock-in de plataforma fechada.'
         }
       }
     ]
@@ -203,26 +219,65 @@
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'Does 3n20 build a full online store?',
+        name: 'Do you build store and brand from scratch?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. Custom e-commerce: storefront, checkout, admin, PIX/cards, shipping, SEO, domain email and source code 100% yours. Sensor Tattoo Fix is the live case.'
+          text: 'Yes. We buy the domain, develop logo/brand, register the name when needed, and deliver e-commerce with PIX/card/international payments, shipping and label generation. The full path matches Sensor Tattoo Fix.'
         }
       },
       {
         '@type': 'Question',
-        name: 'Do you integrate ERP and marketplaces?',
+        name: 'Do you file patents in Brazil and abroad?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, on demand according to the partner API. Scope is defined in the quote.'
+          text: 'Yes — Brazil (INPI) filing and international strategy when the product needs protection abroad. Scope and fees go in the quote.'
         }
       },
       {
         '@type': 'Question',
-        name: 'Does the client own the code?',
+        name: 'Which payments and shipping are included?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. Source code and access are 100% yours — no closed-platform lock-in.'
+          text: 'PIX, card and international (PayPal/Stripe). Shipping with Correios, Super Frete, Jadlog and Uber Direct, with label generation/print in admin.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Do I keep the code and access?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Source code, domain and panels are 100% yours — no closed-platform lock-in.'
+        }
+      }
+    ]
+  };
+
+  const faqHomePt = {
+    '@type': 'FAQPage',
+    '@id': 'https://3n20.com.br/#faq',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'A 3n20 cria produto, marca e loja do zero?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Sim — do domínio e da patente ao e-commerce no ar: logo, registro, site, Pix/cartão/internacional, frete e etiquetas. O Sensor Tattoo Fix é o case completo. Detalhes em 3n20.com.br/ecommerce.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'A 3n20 só faz a lente do Sensor Tattoo Fix?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Não. A 3n20 cria produto, marca, empresa e operação digital — sistemas, lojas, sites, integrações e IA. O Sensor Tattoo Fix é um produto do portfólio, incluindo a loja.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Desenvolvem sistema de gestão interno?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Sim — cadastros, workflows, painéis, relatórios e integrações. Experiência com sistemas de squads, RH e operações enterprise.'
         }
       }
     ]
