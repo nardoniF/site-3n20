@@ -5,10 +5,37 @@
     <loc>https://3n20.com.br/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/servicos/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/servicos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/servicos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/servicos/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/servicos/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.77</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/servicos/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/servicos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/servicos/"/>
   </url>
   <url>
     <loc>https://3n20.com.br/sites-rapidos/</loc>
@@ -20,39 +47,246 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/sites-rapidos/"/>
   </url>
   <url>
-    <loc>https://3n20.com.br/ecommerce/</loc>
-    <lastmod>2026-11-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/ecommerce/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/ecommerce/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/ecommerce/"/>
-  </url>
-  <url>
-    <loc>https://3n20.com.br/en/</loc>
-    <lastmod>2026-11-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/"/>
-  </url>
-  <url>
     <loc>https://3n20.com.br/en/sites-rapidos/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.81</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/sites-rapidos/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/sites-rapidos/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/sites-rapidos/"/>
   </url>
   <url>
+    <loc>https://3n20.com.br/ecommerce/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/ecommerce/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/ecommerce/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/ecommerce/"/>
+  </url>
+  <url>
     <loc>https://3n20.com.br/en/ecommerce/</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/ecommerce/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/ecommerce/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/ecommerce/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/sistemas/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/sistemas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/sistemas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/sistemas/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/sistemas/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.81</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/sistemas/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/sistemas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/sistemas/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.77</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/sensor-tattoo-fix/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/sensor-tattoo-fix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/sensor-tattoo-fix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/sensor-tattoo-fix/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/sensor-tattoo-fix/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/sensor-tattoo-fix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/sensor-tattoo-fix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/sensor-tattoo-fix/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/capitao-fantastico/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/capitao-fantastico/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/capitao-fantastico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/capitao-fantastico/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/capitao-fantastico/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/capitao-fantastico/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/capitao-fantastico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/capitao-fantastico/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/gobtween/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/gobtween/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/gobtween/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/gobtween/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/gobtween/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/gobtween/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/gobtween/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/gobtween/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/xthemis/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/xthemis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/xthemis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/xthemis/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/xthemis/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/xthemis/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/xthemis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/xthemis/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/bruna-bononi/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/bruna-bononi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/bruna-bononi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/bruna-bononi/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/bruna-bononi/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/bruna-bononi/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/bruna-bononi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/bruna-bononi/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/es-consultoria/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/es-consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/es-consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/es-consultoria/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/es-consultoria/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/es-consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/es-consultoria/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/es-consultoria/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/cases/recupera-tributos/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/recupera-tributos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/recupera-tributos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/recupera-tributos/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/cases/recupera-tributos/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/cases/recupera-tributos/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/cases/recupera-tributos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/cases/recupera-tributos/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/quem-somos/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/quem-somos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/quem-somos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/quem-somos/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/quem-somos/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.59</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/quem-somos/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/quem-somos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/quem-somos/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/orcamento/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/orcamento/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/orcamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/orcamento/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/orcamento/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.77</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/orcamento/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/orcamento/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/orcamento/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/contato/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/contato/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/contato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/contato/"/>
+  </url>
+  <url>
+    <loc>https://3n20.com.br/en/contato/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.68</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://3n20.com.br/en/contato/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://3n20.com.br/contato/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://3n20.com.br/contato/"/>
   </url>
 </urlset>
