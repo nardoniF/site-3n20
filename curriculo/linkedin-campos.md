@@ -18,7 +18,7 @@ Lidero engenharia e arquitetura de software em ambientes complexos — da coorde
 
 Atuo há quase três décadas em tecnologia (formação técnica no fim dos anos 90). Minha trajetória combina sistemas corporativos críticos, liderança técnica, inteligência artificial aplicada e empreendedorismo de produto.
 
-Hoje, como Engineering Coordinator na Capgemini, coordeno um cluster com mais de 10 squads: portfólio, capacidade, alocação, formação de profissionais e mentoria de lideranças — mantendo a governança arquitetural que construí como Tech Lead Full Stack. Dissemino o uso responsável de IA generativa para acelerar qualidade, testes, deploys e o dia a dia das equipes. Como coordenador, participei de projetos com outros coordenadores envolvendo mais de 160 pessoas em pesquisa e desenvolvimento de habilidades em IA.
+Hoje, como Engineering Coordinator na Capgemini, atuo na coordenação de engenharia: portfólio, capacidade, alocação, formação de profissionais e mentoria de lideranças — mantendo a governança arquitetural que construí como Tech Lead Full Stack. Dissemino o uso responsável de IA generativa para acelerar qualidade, testes, deploys e o dia a dia das equipes. Como coordenador, participei de projetos com outros coordenadores envolvendo mais de 32 squads e 160 pessoas em pesquisa e desenvolvimento de habilidades em IA.
 
 Antes, na IBM, atuei como desenvolvedor e líder técnico full stack em soluções para o setor financeiro (abertura de contas, portabilidade, mensageria, esteiras CI/CD) e em experiências conversacionais com IBM Watson. Trabalho com IA desde 2017 — chatbots e voicebots em produção — e hoje oriento engenharia assistida por agentes: arquitetura, especificação, auditoria de código, controle de releases e validação antes de publicar.
 
@@ -35,7 +35,7 @@ I lead software engineering and architecture in complex environments — from co
 
 I have worked in technology for nearly three decades (technical education in the late 1990s). My path combines critical enterprise systems, technical leadership, applied artificial intelligence, and product entrepreneurship.
 
-As Engineering Coordinator at Capgemini, I coordinate a cluster of more than 10 squads: portfolio, capacity, allocation, talent development, and leadership mentoring — while keeping the architectural governance I built as a Full Stack Tech Lead. I drive responsible adoption of generative AI to improve quality, testing, deployments, and team productivity. As a coordinator, I took part in initiatives with other coordinators involving more than 160 people in AI skills research and development.
+As Engineering Coordinator at Capgemini, I work in engineering coordination: portfolio, capacity, allocation, talent development, and leadership mentoring — while keeping the architectural governance I built as a Full Stack Tech Lead. I drive responsible adoption of generative AI to improve quality, testing, deployments, and team productivity. As a coordinator, I took part in initiatives with other coordinators involving more than 32 squads and 160 people in AI skills research and development.
 
 Previously at IBM, I worked as a full-stack developer and technical lead on financial-sector solutions (account opening, portability, messaging, CI/CD pipelines) and conversational experiences with IBM Watson. I have worked with AI since 2017 — production chatbots and voicebots — and today I guide agent-assisted engineering: architecture, specifications, code review, release control, and validation before go-live.
 
@@ -55,14 +55,14 @@ Open to conversations on engineering leadership, architecture, AI-driven transfo
 Engineering Coordinator com atuação sequencial e acumulada como Tech Lead Full Stack e Coordenador de Cluster — evoluindo da referência técnica para a liderança de escala, sem abrir mão da governança arquitetural.
 
 Coordenação de Cluster
-• Coordenação de cluster com mais de 10 squads
-• Gestão de portfólio, capacidade e alocação
+• Coordenação de engenharia: portfólio, capacidade e alocação
 • Formação e contratação de profissionais; desenvolvimento de carreira técnica
 • Mentoria de lideranças e interface contínua com Tech Leads
 • Eficiência operacional, comunicação executiva e governança
 • Disseminação de IA generativa para automação de testes, aceleração de deploys e produtividade das squads
-• Como coordenador, participação em projetos com outros coordenadores envolvendo mais de 160 pessoas em pesquisa e desenvolvimento de habilidades em IA
+• Como coordenador, participação em projetos com outros coordenadores envolvendo mais de 32 squads e 160 pessoas em pesquisa e desenvolvimento de habilidades em IA
 • Participação em iniciativas de transformação (incl. Delta), recrutamento técnico e alinhamento com stakeholders
+(Não citar quantas squads coordena hoje — o escopo varia.)
 
 Tech Lead Full Stack
 • Referência técnica em soluções escaláveis e resilientes
@@ -78,14 +78,14 @@ Tech Lead Full Stack
 Engineering Coordinator with sequential and cumulative scope as Full Stack Tech Lead and Cluster Coordinator — growing from technical reference to scaled leadership while retaining architectural governance.
 
 Cluster coordination
-• Coordination of a cluster with more than 10 squads
-• Portfolio, capacity, and allocation management
+• Engineering coordination: portfolio, capacity, and allocation
 • Hiring and talent development; technical career paths
 • Leadership mentoring and ongoing interface with Tech Leads
 • Operational efficiency, executive communication, and governance
 • Responsible rollout of generative AI for test automation, faster deployments, and squad productivity
-• As a coordinator, participation in projects with other coordinators involving more than 160 people in AI skills research and development
+• As a coordinator, participation in projects with other coordinators involving more than 32 squads and 160 people in AI skills research and development
 • Participation in transformation initiatives (incl. Delta), technical recruiting, and stakeholder alignment
+(Do not state how many squads you currently coordinate — scope varies.)
 
 Full Stack Tech Lead
 • Technical reference for scalable, resilient solutions
