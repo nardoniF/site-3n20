@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const CSS = 'css/site.css?v=28';
+const CSS = 'css/site.css?v=29';
 const MAIN = 'js/main.js?v=7';
 const SEO = 'js/seo-schema.js?v=7';
 const WA = '5511984215176';
@@ -309,7 +309,7 @@ function shell({ lang, dir, current, title, description, canonical, hreflangPt, 
     ? (dir === 'en' ? './' : '../'.repeat(dir.split('/').length - 1))
     : (dir === '' ? './' : '../'.repeat(dir.split('/').filter(Boolean).length));
   const basePath = rootRel;
-  const cssHref = asset(dir || '.', CSS.split('?')[0]) + '?v=28';
+  const cssHref = asset(dir || '.', CSS.split('?')[0]) + '?v=29';
   const mainHref = asset(dir || '.', MAIN.split('?')[0]) + '?v=7';
   const seoHref = asset(dir || '.', SEO.split('?')[0]) + '?v=7';
   const icon = asset(dir || '.', 'assets/logo-mark.png') + '?v=1';
@@ -384,7 +384,7 @@ function shell({ lang, dir, current, title, description, canonical, hreflangPt, 
         </nav>
         <div class="header-actions">
             <a href="${otherLang}" class="lang">${lang === 'en' ? 'PT' : 'EN'}</a>
-            <a href="${navBase}orcamento/" class="btn btn-primary">${lang === 'en' ? 'Request quote' : 'Pedir orçamento'}</a>
+            <a href="${navBase}orcamento/" class="btn btn-primary">${lang === 'en' ? 'Quote' : 'Orçamento'}</a>
             <button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false">☰</button>
         </div>
     </div>
@@ -435,7 +435,7 @@ ${crumbs(lang, [{ label: isEn ? 'Home' : 'Início' }])}
     ? 'From a fast template site to full e-commerce and custom systems: naming, logo, domain, multilingual sites, payments, shipping and AI. Professional pages ready for SEO and conversion.'
     : 'Do site rápido em template ao e-commerce completo e sistemas sob medida: nome, logo, domínio, sites multilíngues, pagamentos, frete e IA. Páginas profissionais prontas para SEO e conversão.'}</p>
                 <div class="hero-actions">
-                    <a href="${isEn ? './' : './'}orcamento/" class="btn btn-primary">${isEn ? 'Request quote' : 'Pedir orçamento'}</a>
+                    <a href="${isEn ? './' : './'}orcamento/" class="btn btn-primary">${isEn ? 'Quote' : 'Orçamento'}</a>
                     <a href="${isEn ? './' : './'}cases/" class="btn btn-outline">${isEn ? 'See cases' : 'Ver cases'}</a>
                 </div>
             </div>
@@ -504,7 +504,7 @@ ${crumbs(lang, [{ label: isEn ? 'Home' : 'Início' }])}
             <h2>${isEn ? 'Ready to sell online — or automate with a system?' : 'Pronto para vender online — ou automatizar com um sistema?'}</h2>
             <p>${isEn ? 'Tell us the goal. We reply with scope and next steps.' : 'Conte o objetivo. Respondemos com escopo e próximos passos.'}</p>
             <div class="hero-actions">
-                <a href="orcamento/" class="btn btn-primary">${isEn ? 'Request quote' : 'Pedir orçamento'}</a>
+                <a href="orcamento/" class="btn btn-primary">${isEn ? 'Quote' : 'Orçamento'}</a>
                 <a href="contato/" class="btn btn-outline">${isEn ? 'Contact' : 'Contato'}</a>
             </div>
         </div>
@@ -547,7 +547,7 @@ ${crumbs(lang, [
     ? 'Organized offers for Google and for sales conversations: brand, product, store, marketplaces, Ads, SEO and AI.'
     : 'Ofertas organizadas para o Google e para a conversa comercial: marca, produto, loja, marketplaces, Ads, SEO e IA.'}</p>
                 <div class="hero-actions">
-                    <a href="../orcamento/" class="btn btn-primary">${isEn ? 'Request quote' : 'Pedir orçamento'}</a>
+                    <a href="../orcamento/" class="btn btn-primary">${isEn ? 'Quote' : 'Orçamento'}</a>
                     <a href="../ecommerce/" class="btn btn-outline">E-commerce</a>
                 </div>
             </div>
@@ -685,7 +685,7 @@ ${crumbs(lang, [
         <div class="container reveal">
             <h2>${isEn ? 'Need a system, not just a site?' : 'Precisa de sistema, não só site?'}</h2>
             <div class="hero-actions">
-                <a href="../orcamento/" class="btn btn-primary">${isEn ? 'Request quote' : 'Pedir orçamento'}</a>
+                <a href="../orcamento/" class="btn btn-primary">${isEn ? 'Quote' : 'Orçamento'}</a>
             </div>
         </div>
     </section>`;

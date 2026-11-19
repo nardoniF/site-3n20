@@ -38,7 +38,7 @@ a { color: inherit; text-decoration: none; }
 }
 .header-inner {
     display: flex; align-items: center; justify-content: space-between;
-    min-height: 80px; gap: 1rem;
+    min-height: 64px; gap: .75rem;
 }
 .brand {
     display: inline-flex;
@@ -82,21 +82,51 @@ a { color: inherit; text-decoration: none; }
     .brand-name { font-size: 1.15rem; }
     .brand-tag { display: none; }
 }
-.nav { display: flex; gap: 2rem; }
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: .15rem .85rem;
+    flex: 1 1 auto;
+    justify-content: center;
+    min-width: 0;
+}
 .nav a {
-    font-size: .8125rem; font-weight: 500; letter-spacing: .04em;
-    text-transform: uppercase; color: var(--muted); transition: color .2s;
+    font-size: .72rem;
+    font-weight: 500;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: var(--muted);
+    transition: color .2s;
+    white-space: nowrap;
+    flex-shrink: 0;
+    line-height: 1.2;
 }
 .nav a:hover { color: var(--text); }
-.header-actions { display: flex; align-items: center; gap: 1rem; }
+.nav a[aria-current="page"] { color: var(--text); }
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    flex-shrink: 0;
+}
+.header-actions .btn {
+    white-space: nowrap;
+    padding: .55rem .9rem;
+    font-size: .7rem;
+    letter-spacing: .04em;
+    line-height: 1.2;
+}
 .lang {
-    font-size: .75rem; font-weight: 600; letter-spacing: .08em;
+    font-size: .7rem; font-weight: 600; letter-spacing: .08em;
     color: var(--muted); text-transform: uppercase;
+    white-space: nowrap;
 }
 .lang:hover { color: var(--text); }
 .menu-btn {
     display: none; background: none; border: 0; color: var(--text);
     font-size: 1.25rem; cursor: pointer; padding: .25rem;
+    line-height: 1;
 }
 
 .btn {
@@ -104,6 +134,7 @@ a { color: inherit; text-decoration: none; }
     padding: .85rem 1.35rem; font-size: .8125rem; font-weight: 600;
     letter-spacing: .06em; text-transform: uppercase;
     border: 1px solid transparent; transition: background .25s var(--ease), border-color .25s, color .25s;
+    white-space: nowrap;
 }
 .btn-primary { background: var(--text); color: var(--bg); }
 .btn-primary:hover { background: rgba(255, 255, 255, .88); }
@@ -721,6 +752,37 @@ main > .breadcrumbs + .hero-compact {
 #templates { background: var(--bg); }
 .section-alt { background: var(--bg-elevated); }
 
+/* Menu hamburger antes de caber — evita links e CTA quebrando linha */
+@media (max-width: 1180px) {
+    .nav {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 0;
+        background: rgba(10, 10, 10, .97);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--line);
+        padding: .5rem 5vw 1rem;
+        max-height: min(70vh, 520px);
+        overflow: auto;
+    }
+    .nav.open { display: flex; }
+    .nav a {
+        padding: .85rem 0;
+        border-bottom: 1px solid var(--line);
+        font-size: .8125rem;
+        white-space: nowrap;
+    }
+    .menu-btn { display: block; }
+    .header-actions .btn { padding: .5rem .75rem; }
+}
+
 @media (max-width: 860px) {
     .hero-grid, .process, .capabilities, .contact-grid, .founder-block,
     .case-study, .split-section, .pillars, .metrics, .service-lines,
@@ -736,12 +798,4 @@ main > .breadcrumbs + .hero-compact {
     .brand-row { grid-template-columns: 1fr; gap: .75rem; }
     .symbol-explainer { grid-template-columns: 1fr; text-align: center; }
     .symbol-large { margin: 0 auto; }
-    .nav {
-        display: none; position: absolute; top: 72px; left: 0; right: 0;
-        flex-direction: column; gap: 0; background: var(--bg);
-        border-bottom: 1px solid var(--line); padding: 1rem 5vw;
-    }
-    .nav.open { display: flex; }
-    .nav a { padding: .75rem 0; border-bottom: 1px solid var(--line); }
-    .menu-btn { display: block; }
 }
